@@ -1,0 +1,415 @@
+{
+  "label": "Talentos",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Equipment Talents": "Talentos de Equipamento",
+    "Recovery Talents": "Talentos de Recuperação",
+    "Stealth & Mobility Talents": "Talentos de Furtividade e Mobilidade",
+    "Social Talents": "Talentos Sociais",
+    "Combat Talents": "Talentos de Combate",
+    "Vehicle & Exo Talents": "Talentos de Veículos e Exos",
+    "Resilience Talents": "Talentos de Resiliência",
+    "Insight Talents": "Talentos de Discernimento",
+    "Knowledge Talents": "Talentos de Conhecimento"
+  },
+  "entries": {
+    "Cartographer": {
+      "name": "Cartógrafo",
+      "description": "Você recebe +1 dado básico por nível deste talento para mapear e navegar durante viagens."
+    },
+    "Evasive": {
+      "name": "Evasivo",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de AGILIDADE para desviar de ataques à distância."
+    },
+    "Lone Wolf": {
+      "name": "Lobo Solitário",
+      "description": "Você consegue ajudar a si mesmo quando está incapacitado por desespero. Faça um teste de DISCERNIMENTO. Não é possível forçar esse teste."
+    },
+    "Assassin": {
+      "name": "Assassino",
+      "description": "Você recebe +1 dado básico por nível deste talento para fazer ataques furtivos (página 61)."
+    },
+    "Botanist": {
+      "name": "Botânico",
+      "description": "Você recebe +1 dado básico por nível deste talento para cultivar plantas e fungos, assim como para compreender flora."
+    },
+    "Shuttle Pilot": {
+      "name": "Piloto de Esquife",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de AGILIDADE ao pilotar um esquife."
+    },
+    "Jury-Rig": {
+      "name": "Gambiarra",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes para produzir, ou fazer improvisos e/ou modificações em maquinário."
+    },
+    "Cook": {
+      "name": "Cozinheiro",
+      "description": "Você recebe +1 dado básico por nível deste talento ao cozinhar usando uma cozinha de campo (página 105)."
+    },
+    "Hardened": {
+      "name": "Calejado",
+      "description": "Role uma quantidade de dados básicos igual ao nível deste talento ao ser afetado pela Mácula (após rolar proteção contra Mácula). Para cada (seis) obtido, ignore um ponto de Mácula."
+    },
+    "Greatship Pilot": {
+      "name": "Piloto de Grã-Nave",
+      "description": "Você recebe +1 dado básico por nível deste talento ao pilotar espaçonaves grandes."
+    },
+    "Teratology": {
+      "name": "Teratologia",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender as feras da Grande Escuridão."
+    },
+    "Nurse": {
+      "name": "Enfermeiro",
+      "description": "Se você passar um período cuidando de um paciente, ele recupera 2 pontos de dano (em vez de 1), pressupondo que esteja descansando. Você pode cuidar de uma quantidade de pacientes igual ao seu valor de LÓGICA."
+    },
+    "Bowman": {
+      "name": "Arqueiro",
+      "description": "Você recebe +1 dado básico por nível deste talento ao atirar com arcos e bestas."
+    },
+    "Polearms": {
+      "name": "Armas de Haste",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de combate corpo a corpo ao usar armas contundentes."
+    },
+    "Miner": {
+      "name": "Minerador",
+      "description": "Você recebe +1 dado básico por nível deste talento para perfurar, escavar ou escorar uma caverna ou túnel subterrâneo."
+    },
+    "Bodyguard": {
+      "name": "Guarda-costas",
+      "description": "Se alguém ao alcance Curto de você for atingido por um ataque, você pode mergulhar na frente para receber o golpe. Faça um teste de AGILIDADE e, se for bem-sucedido, você sofre o dano no lugar do alvo. Você pode forçar esse teste. Isso não conta como uma ação de combate."
+    },
+    "Stealthy": {
+      "name": "Furtivo",
+      "description": "Você recebe +1 dado básico por nível deste talento para ficar escondido. Não pode ser usado para emboscadas."
+    },
+    "Dirty Fighter": {
+      "name": "Lutador Sujo",
+      "description": "Seus ataques desarmados em combate corpo a corpo causam 2 de dano base."
+    },
+    "Scan Operator": {
+      "name": "Operador de Escâner",
+      "description": "Você recebe +1 dado básico por nível deste talento ao escanear uma área em busca de sua configuração, Mácula ou outras ameaças."
+    },
+    "Barter": {
+      "name": "Barganha",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de EMPATIA para negociar ou comprar algo."
+    },
+    "Kite Operator": {
+      "name": "Operador de Pipa",
+      "description": "Você recebe +1 dado básico por nível deste talento ao controlar uma pipa."
+    },
+    "Burglar": {
+      "name": "Arrombador",
+      "description": "Você recebe +1 dado básico por nível deste talento para arrombar ou forçar fechaduras."
+    },
+    "Historian": {
+      "name": "Historiador",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender costumes e hábitos culturais da Diáspora, do Horizonte Perdido e do Velho Horizonte."
+    },
+    "Charmer": {
+      "name": "Charmoso",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de EMPATIA para fazer um PNJ gostar de você."
+    },
+    "Tracker": {
+      "name": "Rastreador",
+      "description": "Você recebe +1 dado básico por nível deste talento para seguir rastros através dos ermos e em incursões."
+    },
+    "Lookout": {
+      "name": "À Espreita",
+      "description": "Você recebe +1 dado básico por nível deste talento para avistar ameaças se aproximando."
+    },
+    "Survivor": {
+      "name": "Sobrevivente",
+      "description": "Faça um teste de FORÇA quando sofrer uma lesão crítica letal. Sendo bem-sucedido, você será estabilizado após um período, em vez de morrer."
+    },
+    "Pistoleer": {
+      "name": "Pistoleiro",
+      "description": "Você recebe +1 dado básico por nível deste talento ao disparar com uma pistola."
+    },
+    "Pack Mule": {
+      "name": "Burro de Carga",
+      "description": "Seu limite de carga (página 22) aumenta em dois (2) itens para cada nível deste talento.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.derivedAttributes.encumbrance.bonus": "@currentLevel * 2"
+          }
+        }
+      }
+    },
+    "Streetwise": {
+      "name": "Manha",
+      "description": "Você recebe +1 dado básico por nível deste talento para adquirir bens roubados, encontrar um contato ou ouvir rumores na Cidade-Nave e nas colônias."
+    },
+    "Cultural Savant": {
+      "name": "Erudito Cultural",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender costumes e hábitos culturais no Horizonte Perdido."
+    },
+    "Agitator": {
+      "name": "Agitador",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de EMPATIA para tentar persuadir, convencer ou instigar um grupo de PNJs."
+    },
+    "Blade Fighter": {
+      "name": "Lutador de Lâmina",
+      "description": "Você recebe +1 dado por nível deste talento em testes de combate corpo a corpo ao lutar com armas de lâmina; ou seja; espadas, facas, machados e lanças."
+    },
+    "Pugilist": {
+      "name": "Pugilista",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de combate corpo a corpo ao lutar desarmado."
+    },
+    "Reckless": {
+      "name": "Imprudente",
+      "description": "Você sempre gostou de assumir riscos, indo além dos limites em tudo o que faz. Você pode forçar testes baseados em AGILIDADE duas vezes.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.maxPush.agility": 2
+          }
+        }
+      }
+    },
+    "Heavy Weapons": {
+      "name": "Armas Pesadas",
+      "description": "Você recebe +1 dado básico por nível deste talento ao disparar com armas pesadas como lança-mísseis, tostadores e armas montadas em veículos."
+    },
+    "Defender": {
+      "name": "Defensor",
+      "description": "Você recebe +1 dado básico por nível deste talento ao bloquear ataques corpo a corpo (página 61)."
+    },
+    "Electro-Specialist": {
+      "name": "Eletroespecialista",
+      "description": "Você recebe +1 dado básico por nível deste talento para manusear e consertar dispositivos eletrônicos, incluindo computadores."
+    },
+    "Quartermastery": {
+      "name": "Intendência",
+      "description": "Você recebe +1 dado básico por nível deste talento ao montar acampamentos e em testes de recuperação em acampamentos (página 217)."
+    },
+    "Musician": {
+      "name": "Músico",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de EMPATIA ao usar instrumentos musicais."
+    },
+    "Acrobat": {
+      "name": "Acrobata",
+      "description": "Você recebe +1 dado básico por nível deste talento para saltar, escalar e correr."
+    },
+    "Renowned": {
+      "name": "Renomado",
+      "description": "Você pode forçar qualquer teste de EMPATIA duas vezes.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.maxPush.empathy": 2
+          }
+        }
+      }
+    },
+    "Tough": {
+      "name": "Robusto",
+      "description": "Seu valor máximo de Vida aumenta em 1 por nível deste talento.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.derivedAttributes.health.bonus": "@currentLevel"
+          }
+        }
+      }
+    },
+    "Commander": {
+      "name": "Comandante",
+      "description": "Você recebe +1 dado básico por nível deste talento ao tentar recuperar alguém que está incapacitado por desespero."
+    },
+    "Intuition": {
+      "name": "Intuição",
+      "description": "Uma vez por sessão, você pode pedir ao mestre para fornecer uma dica útil (porém vaga)."
+    },
+    "Sharpshooter": {
+      "name": "Atirador de Elite",
+      "description": "COLOQUE A TRADUÇÃO AQUI"
+    },
+    "Resilient": {
+      "name": "Resiliente",
+      "description": "Você recebe +1 dado básico por nível deste talento a fome, sede e doença."
+    },
+    "Medic": {
+      "name": "Médico",
+      "description": "Você recebe +1 dado básico por nível deste talento ao tentar recuperar alguém incapacitado por dano. Ter equipamento médico fornece dados de equipamento."
+    },
+    "Endurance": {
+      "name": "Resistência",
+      "description": "Você recebe +1 dado básico por nível deste talento para resistir ao vácuo, sufocamento e frio."
+    },
+    "Glyph Scholar": {
+      "name": "Estudioso de Glifos",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender glifos ou decifrar textos antigos."
+    },
+    "Executioner": {
+      "name": "Carrasco",
+      "description": "Se quiser, você pode rolar um dado extra ao causar um acerto crítico em um alvo e escolher o resultado que preferir."
+    },
+    "Driver": {
+      "name": "Motorista",
+      "description": "Você recebe +1 dado básico por nível deste talento para dirigir qualquer veículo terrestre."
+    },
+    "Force": {
+      "name": "Forçar",
+      "description": "Você recebe +1 dado básico por nível deste talento para levantar, empurrar, ou quebrar algo pesado ou sólido."
+    },
+    "Exo-Specialist": {
+      "name": "Exoespecialista",
+      "description": "Você recebe +1 dado básico por nível deste talento ao utilizar qualquer tipo de exotraje."
+    },
+    "Blight Resistant": {
+      "name": "Resistente a Mácula",
+      "description": "Seu valor máximo de Âmago aumenta em 1 por nível deste talento.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.derivedAttributes.heart.bonus": "@currentLevel"
+          }
+        }
+      }
+    },
+    "Mentalist": {
+      "name": "Mentalista",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes de EMPATIA para analisar um alvo e compreender se ele está mentindo ou escondendo algo."
+    },
+    "Stamina": {
+      "name": "Vigor",
+      "description": "COLOQUE A TRADUÇÃO AQUI"
+    },
+    "Investigator": {
+      "name": "Investigador",
+      "description": "Você recebe +1 dado básico por nível deste talento ao vasculhar uma área em busca de pistas."
+    },
+    "Permit": {
+      "name": "Licença",
+      "description": "Você tem as licenças adequadas para comprar itens restritos (página 90) e portar armas de fogo na Cidade-Nave (página 151)."
+    },
+    "Disguise": {
+      "name": "Disfarce",
+      "description": "Você recebe +1 dado básico por nível deste talento para evitar ser reconhecido e para identificar disfarces."
+    },
+    "Sleight of Hand": {
+      "name": "Prestidigitação",
+      "description": "Você recebe +1 dado básico por nível deste talento para fazer truques com suas mãos e punga."
+    },
+    "Nine Lives": {
+      "name": "Nove Vidas",
+      "description": "Após rolar D66 na tabela lesões críticas em si mesmo (página 67), você pode escolher qual dado será a dezena e qual será a unidade."
+    },
+    "Actor": {
+      "name": "Ator",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes para blefar ou mentir para um PNJ."
+    },
+    "Field Surgeon": {
+      "name": "Cirurgião de Campo",
+      "description": "Você recebe +1 dado básico por nível deste talento ao tentar estabilizar uma lesão crítica."
+    },
+    "Demolitions Expert": {
+      "name": "Especialista em Demolições",
+      "description": "Você recebe +1 dado básico por nível deste talento ao usar armas explosivas, incluindo granadas de mão e explosivos improvisados."
+    },
+    "Interrogator": {
+      "name": "Interrogador",
+      "description": "Você recebe +1 dado básico por nível deste talento em testes para extrair informações de alguém."
+    },
+    "Thug": {
+      "name": "Rufião",
+      "description": "Você pode usar FORÇA, em vez de EMPATIA, quando ameaçar alguém, e você recebe +1 dado básico por nível deste talento no teste."
+    },
+    "Librarian": {
+      "name": "Bibliotecário",
+      "description": "Você recebe +1 dado básico por nível deste talento ao usar bibliotecas ou infocubos para encontrar informações."
+    },
+    "Fast Reflexes": {
+      "name": "Reflexos Rápidos",
+      "description": "Você pode sacar uma carta de iniciativa adicional no início do combate. Escolha qual das duas irá usar.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.ferocity": 2
+          }
+        }
+      }
+    },
+    "Zero-G Training": {
+      "name": "Treinamento em G-Zero",
+      "description": "Você não sofre efeitos negativos (página 72) ao agir em ambientes com gravidade zero."
+    },
+    "Mechanic": {
+      "name": "Mecânico",
+      "description": "Você recebe +1 dado básico por nível deste talento para consertar veículos ou outros aparelhos mecânicos. Você também recebe +1 dado básico por nível deste talento ao lutar usando qualquer tipo de ferramenta, como furadeiras, martelos e maçaricos em combate corpo a corpo."
+    },
+    "Ruin Delver": {
+      "name": "Incursor de Ruínas",
+      "description": "Você recebe +1 dado básico por nível deste talento ao guiar o caminho através de uma ruína ou câmara."
+    },
+    "Smart": {
+      "name": "Esperto",
+      "description": "Você pode forçar testes baseados em LÓGICA duas vezes.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.maxPush.logic": 2
+          }
+        }
+      }
+    },
+    "Bird Handler": {
+      "name": "Garudilho",
+      "description": "Você recebe +1 dado básico por nível deste talento para lidar com Pássaros."
+    },
+    "Malicious": {
+      "name": "Malicioso",
+      "description": "Você pode causar um ponto de desespero para cada (seis) ao ameaçar um PNJ."
+    },
+    "Hunter": {
+      "name": "Caçador",
+      "description": "Você recebe +1 dado básico por nível deste talento para caçar criaturas e feras."
+    },
+    "Laboratorist": {
+      "name": "Laboratorista",
+      "description": "Você recebe +1 dado básico por nível deste talento para criar misturas e entender reações químicas."
+    },
+    "Archaeology": {
+      "name": "Arqueologia",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender ruínas e monumentos."
+    },
+    "Sixth Sense": {
+      "name": "Sexto Sentido",
+      "description": "Você não pode ser pego de surpresa. Isso significa que quem estiver tentando fazer um ataque furtivo (página 61) não recebe nenhum bônus para atacá-lo, e você pode tentar bloquear esse ataque. Ao sofrer uma emboscada, você saca sua iniciativa normalmente."
+    },
+    "Astrometry": {
+      "name": "Astrometria",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender fenômenos espaciais, mecânicas orbitais e planetologia."
+    },
+    "Hopeful": {
+      "name": "Esperançoso",
+      "description": "Seu valor máximo de Esperança aumenta em 1 por nível deste talento.",
+      "effects": {
+        "Active Effect": {
+          "name": "Efeito Ativo",
+          "changes": {
+            "system.derivedAttributes.hope.bonus": "@currentLevel * 1"
+          }
+        }
+      }
+    },
+    "Artifact Specialist": {
+      "name": "Especialista em Artefatos",
+      "description": "Você recebe +1 dado básico por nível deste talento para compreender artefatos antigos."
+    },
+    "Data Djinn": {
+      "name": "Djinn da Computação",
+      "description": "Você recebe +1 dado básico por nível deste talento ao interagir com computadores e terminais."
+    }
+  }
+}

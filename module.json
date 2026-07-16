@@ -1,0 +1,26 @@
+{
+  "name": "coriolis-rpg-traducao-pt-br",
+  "id": "coriolis-rpg-traducao-pt-br",
+  "title": "Tradução de Coriolis RPG - Português Brasileiro",
+  "description": "Tradução para Português Brasileiro do sistema Coriolis.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Isaias Alves(Liberta)",
+      "url": "https://github.com/Isaias-Alves"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "14"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": ["registro.js"]
+}
