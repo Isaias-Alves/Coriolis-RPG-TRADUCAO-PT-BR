@@ -1,0 +1,431 @@
+{
+  "label": "Equipamentos",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "General Equipment & Clothing": "Equipamento Geral e Vestuário",
+    "Delving & Climbing": "Incursão e Escalada",
+    "Camp, Supply & Navigation": "Acampamento, Suprimento e Navegação",
+    "Tools & Kits": "Ferramentas e Kits",
+    "Digging & Explosives": "Escavação e Explosivos",
+    "Light, Scanning & Scouting": "Iluminação, Escaneamento e Reconhecimento",
+    "Communication & Computers": "Comunicação e Computadores",
+    "Medicine, Decontamination & Drugs": "Medicina, Descontaminação e Drogas",
+    "Books & Pamphlets": "Livros e Panfletos"
+  },
+  "entries": {
+    "Notebook and pen": {
+      "name": "Caderno e caneta",
+      "description": "Para fazer anotações"
+    },
+    "Cirra-­ cirra": {
+      "name": "Cirra-cirra",
+      "description": "Cura a condição Abalado ou Desanimado uma vez por período"
+    },
+    "Artifact scanner": {
+      "name": "Escâner de artefatos",
+      "description": "Para analisar fragmentos e artefatos"
+    },
+    "Distress beacon": {
+      "name": "Radiobaliza de emergência",
+      "description": "Transmite sinal de localização. Pode atravessar 10 zonas de terreno sólido"
+    },
+    "Revolutionary pamphlet": {
+      "name": "Panfleto revolucionário",
+      "description": "Bônus de Equipamento em EMPATIA ao agitar as massas ou convencer alguém a se juntar a uma causa"
+    },
+    "Bird candy": {
+      "name": "Doces de pássaro",
+      "description": "Para comandar um Pássaro"
+    },
+    "Portable sensor display": {
+      "name": "Tela de sensor portátil",
+      "description": "Tela para exibir mapas de viagem ou incursão, usada para mapeamento e navegação"
+    },
+    "Crank": {
+      "name": "Manivela",
+      "description": "Testes de FORÇA geram 1 de suprimento uma vez por período"
+    },
+    "Adhesive gloves": {
+      "name": "Luvas adesivas",
+      "description": "Para escalar. Só funciona em superfícies lisas"
+    },
+    "Electric lantern": {
+      "name": "Lanterna elétrica",
+      "description": "Projeta um cone de luz até a distância Curta"
+    },
+    "Radio detonator": {
+      "name": "Detonador a rádio",
+      "description": "Detona explosivos remotamente, alcance de 10 zonas"
+    },
+    "Antidote": {
+      "name": "Antídoto",
+      "description": "+3 para resistir a venenos ingeridos"
+    },
+    "Camouflage net": {
+      "name": "Rede de camuflagem",
+      "description": "Esconde uma pessoa"
+    },
+    "Musical instrument": {
+      "name": "Instrumento musical",
+      "description": "Para tocar uma balada"
+    },
+    "Timed detonator": {
+      "name": "Detonador temporizado",
+      "description": "Para efetuar detonações temporizadas"
+    },
+    "Binoculars": {
+      "name": "Binóculos",
+      "description": "Bônus em testes de PERCEPÇÃO da distância Média à Longa"
+    },
+    "MediKit, basic": {
+      "name": "MediKit básico",
+      "description": "Usado para estabilizar uma lesão crítica ou ajudar uma vítima incapacitada"
+    },
+    "Old paper journal": {
+      "name": "Diário de papel antigo",
+      "description": "Bônus em testes de LÓGICA sobre um assunto específico"
+    },
+    "Accounting ledger": {
+      "name": "Livro de contabilidade",
+      "description": "Bônus de equipamento em EMPATIA em conflitos sociais relacionados às informações do livro, como barganha ou suborno"
+    },
+    "Astro-­compass": {
+      "name": "Astrobússola",
+      "description": "Para navegar em espaço plano"
+    },
+    "Grappling gun": {
+      "name": "Pistola-arpéu",
+      "description": "Favorita dos incursores, a pistola-arpéu foi feita para escalar ruínas. Destroceiros a modificaram para disparar virotes sólidos a partir de uma câmara giratória, chamando-as de \"volvers\".\n\n**Propósito:** Escalada, também serve como arma."
+    },
+    "Floodlight": {
+      "name": "Refletor",
+      "description": "Projeta um cone de luz até a distância Média"
+    },
+    "Com hook": {
+      "name": "Comunigancho",
+      "description": "Permite comunicação conectado por um fio"
+    },
+    "Astrolabe": {
+      "name": "Astrolábio",
+      "description": "Para navegar pelas Fluxovias"
+    },
+    "Coriolite clothing": {
+      "name": "Roupa coriolita",
+      "description": "Para interações sociais ou disfarce com coriolitas"
+    },
+    "Portable lab": {
+      "name": "Laboratório portátil",
+      "description": "Para analisar amostras químicas e biológicas"
+    },
+    "Short story collection": {
+      "name": "Coleção de contos",
+      "description": "Requer um entretempo para ler. Recupera 1 ponto de Esperança adicional se não estiver incapacitado"
+    },
+    "Environmental scanner": {
+      "name": "Escâner ambiental",
+      "description": "Detecta Mácula, toxinas e gases em uma zona."
+    },
+    "Book of Glyphs": {
+      "name": "Livro dos Glifos",
+      "description": "Bônus em testes de LÓGICA sobre glifos no Horizonte Perdido"
+    },
+    "Cutting torch": {
+      "name": "Maçarico de corte",
+      "description": "Corta através de anteparas metálicas, arma improvisada"
+    },
+    "Climbing kit, advanced": {
+      "name": "Kit de escalada avançado",
+      "description": "Inclui crampões e corda extensível"
+    },
+    "Field kitchen": {
+      "name": "Cozinha de campo",
+      "description": "Testes de EMPATIA geram 1 de suprimento uma vez por período"
+    },
+    "Emergency flare": {
+      "name": "Sinalizador de emergência",
+      "description": "+3 em testes de PERCEPÇÃO para ser avistado"
+    },
+    "MediDose, advanced": {
+      "name": "MediDose avançado",
+      "description": "Injetor de uso único. Autocura 2 de Vida de uma vítima incapacitada"
+    },
+    "Lightstick": {
+      "name": "Bastão de luz",
+      "description": "Ilumina uma zona por 5 rodadas"
+    },
+    "Bird capsule": {
+      "name": "Capsula de Pássaro",
+      "description": "Pequena gaiola para carregar um Pássaro (armadura 2)"
+    },
+    "Vacuum sealer": {
+      "name": "Veda-rombo",
+      "description": "Usado para selar exos, trajes de incursão e rachaduras em cascos com um teste de LÓGICA. Uso único."
+    },
+    "Fancy clothing": {
+      "name": "Roupas elegantes",
+      "description": "Interação social ou disfarce"
+    },
+    "News publication": {
+      "name": "Periódico jornalístico",
+      "description": "Para atualiza-se sobre os eventos atuais com um entretempo de leitura"
+    },
+    "Ibis 4 terminal": {
+      "name": "Terminal Ibis 4",
+      "description": "Terminal de computador básico para ler infocubos e conectar-se a comuniganchos e outros terminais através de fios. Consume 1 ponto de suprimentos por entretempo de uso."
+    },
+    "Garuda device": {
+      "name": "Dispositivo Garuda",
+      "description": "Para se comunicar com o Pássaro"
+    },
+    "Deck of cards": {
+      "name": "Baralho",
+      "description": "Recupera 1 de Esperança extra ao usar durante um período de descanso"
+    },
+    "Chemical kit": {
+      "name": "Kit de química",
+      "description": "Para analisar compostos químicos, ácidos ou gases"
+    },
+    "MediKit, advanced": {
+      "name": "MediKit avançado",
+      "description": "Usado para estabilizar uma lesão crítica ou ajudar uma vítima incapacitada"
+    },
+    "Climbing kit, basic": {
+      "name": "Kit de escalada básico",
+      "description": "Inclui corda, picareta e martelo"
+    },
+    "Deep scanner": {
+      "name": "Escâner de Profundidade",
+      "description": "Usado para escanear a estrutura de uma incursão (página 210)"
+    },
+    "Portable crane": {
+      "name": "Guincho portátil",
+      "description": "Escalada, permite viagem de volta por até 10 zonas e um entretempo"
+    },
+    "Climbing kit, Guild": {
+      "name": "Kit de escalada guildano",
+      "description": "Inclui guincho de escalada e hipercorda"
+    },
+    "Filter pack": {
+      "name": "Pacote de Filtros",
+      "description": "+2 de Proteção contra ataques de Mácula, uso único"
+    },
+    "MediDose, basic": {
+      "name": "MediDose básica",
+      "description": "Injetor de uso único. Autocura 1 de Vida de uma vítima incapacitada"
+    },
+    "Comlink": {
+      "name": "Comunicador",
+      "description": "Permite comunicação sem fio até a distância Longa (4 zonas) no subterrâneo e distância Extrema a céu aberto"
+    },
+    "Decontamination dose": {
+      "name": "Dose de descontaminação",
+      "description": "Spray de descontaminação de uso único, autocura 1 de Âmago"
+    },
+    "Fake Guild ID": {
+      "name": "Identidade Guildana Falsa",
+      "description": "Disfarce"
+    },
+    "Lockpicks": {
+      "name": "Gazuas",
+      "description": "Para abrir fechaduras mecânicas"
+    },
+    "Electronic lock kit": {
+      "name": "Kit de invasão eletrônica",
+      "description": "Para abrir fechaduras eletrônicas"
+    },
+    "Decontamination kit": {
+      "name": "Kit de descontaminação",
+      "description": "Cura uma vítima incapacitada pela Mácula"
+    },
+    "Multi-­ wrench": {
+      "name": "Chave multiuso",
+      "description": "Consertos, arma improvisada"
+    },
+    "Star chart": {
+      "name": "Mapa estelar",
+      "description": "Para navegar pelas Fluxovias e por espaços planos"
+    },
+    "Backpack": {
+      "name": "Mochila",
+      "description": "Aumenta o limite de carga em 1",
+      "effects": {
+        "Backpack": {
+          "name": "Backpack",
+          "changes": {
+            "system.derivedAttributes.encumbrance.bonus": 1
+          }
+        }
+      }
+    },
+    "Compass": {
+      "name": "Bússola",
+      "description": "Para navegar por superfícies planetárias (página 204)"
+    },
+    "Welding torch": {
+      "name": "Maçarico",
+      "description": "Para soldar uma porta ou vedar uma ruptura com um teste de LÓGICA e 1 ponto de suprimento."
+    },
+    "Heavy tools": {
+      "name": "Ferramentas pesadas",
+      "description": "Para fazer consertos mecânicos"
+    },
+    "Night goggles": {
+      "name": "Óculos de visão noturna",
+      "description": "Para ver no escuro, alcance Médio."
+    },
+    "Archaeology kit": {
+      "name": "Kit de arqueologia",
+      "description": "Para analisar glifos, inscrições e ruínas"
+    },
+    "Pickaxe": {
+      "name": "Picareta",
+      "description": "Cavar, arma improvisada"
+    },
+    "Mazelmann’s Fantastic Travels": {
+      "name": "As Viagens Fantásticas de Mazelmann",
+      "description": "Bônus todos os testes de LÓGICA, mas requer um período de leitura devido ao texto denso e grande quantidade de páginas"
+    },
+    "Kasram": {
+      "name": "Kasram",
+      "description": "Também chamado de poeira vermelha, o kasram é uma droga rara e valiosa, conhecida por suas propriedades alucinógenas. Relatos indicam seu uso pelos algebristas da Guilda dos Navegadores em seu trabalho, sendo raramente disponível fora de círculos privilegiados.\n\n**Propósito:** +2 em todos os testes de LÓGICA por um período, ao custo de 1 de Âmago"
+    },
+    "Smelling spice": {
+      "name": "Especiarias",
+      "description": "Uma inalada faz recuperar 1 de Esperança e deixa Aturdido"
+    },
+    "Sentry scanner": {
+      "name": "Escâner de sentinela",
+      "description": "Escâner automático com PERCEPÇÃO 5, distância Curta"
+    },
+    "Proximity sweeper": {
+      "name": "Detector de proximidade",
+      "description": "Bônus de PERCEPÇÃO para avistar ameaças, alcance Médio"
+    },
+    "Calculus board": {
+      "name": "Mesa de cálculo",
+      "description": "Para fazer cálculos"
+    },
+    "Algebraic Calculus": {
+      "name": "Cálculo Algébrico",
+      "description": "Útil para navegação espacial e cartografia"
+    },
+    "Tent": {
+      "name": "Barraca",
+      "description": "Fornece bônus de equipamento ao acampar em uma viagem"
+    },
+    "Orbital comlink": {
+      "name": "Comunicador orbital",
+      "description": "Comunicação do solo à órbita. Não atravessa terreno sólido"
+    },
+    "Marfid heavy terminal": {
+      "name": "Terminal pesado marfid",
+      "description": "Terminal avançado da Guilda dos Maquinistas, com software de álgebra sofisticado. Consegue ler infocubos e conectar-se a comuniganchos e outros terminais através de fios. Consume 1 ponto de suprimentos por entretempo de uso."
+    },
+    "Breathing mask": {
+      "name": "Máscara respiratória",
+      "description": "Para respirar oxigênio em atmosferas não respiráveis"
+    },
+    "Arrash": {
+      "name": "Arrash",
+      "description": "Cura Exausto e Desanimado, mas deixa Aturdido"
+    },
+    "Pipe": {
+      "name": "Cachimbo",
+      "description": "Para fumar tabaco"
+    },
+    "Magnifying glass": {
+      "name": "Lupa",
+      "description": "Para examinar coisas pequenas e investigar pistas"
+    },
+    "Shaped charge": {
+      "name": "Carga moldada",
+      "description": "Poder de explosão 3, dano 1, crítico 3, inclui detonador a fio"
+    },
+    "Exquisite clothing": {
+      "name": "Roupas requintadas",
+      "description": "Interação social ou disfarce"
+    },
+    "Shovel": {
+      "name": "Pá",
+      "description": "Cavar, arma improvisada"
+    },
+    "Info cube": {
+      "name": "Infocubo",
+      "description": "Banco de dados lido por um computador ou tábula"
+    },
+    "Breach charge": {
+      "name": "Carga de explosivos",
+      "description": "Poder de explosão 3, dano 4, crítico 6, inclui detonador a fio"
+    },
+    "Cartographer’s kit": {
+      "name": "Kit de cartografia",
+      "description": "Para navegar por superfícies planetárias (página 204)"
+    },
+    "Waking pills": {
+      "name": "Rebite",
+      "description": "Permite permanecer acordado por seis períodos antes de sofrer privação de sono"
+    },
+    "Rare collection of poems": {
+      "name": "Coleção de poemas raros",
+      "description": "Ler para alguém permite que essa pessoa recupere 1 ponto de Esperança extra por período, se ela não estiver incapacitada"
+    },
+    "Grule": {
+      "name": "Grule",
+      "description": "Autocura automaticamente 1 de Esperança, mas deixa o paciente Aturdido"
+    },
+    "Set of paints": {
+      "name": "Conjunto de tintas",
+      "description": "Para pintura"
+    },
+    "Optinoculars": {
+      "name": "Optinoculares",
+      "description": "Bônus de PERCEPÇÃO da distância Curta à Extrema"
+    },
+    "Backpack, large": {
+      "name": "Mochila grande",
+      "description": "Aumenta o limite de carga em 2",
+      "effects": {
+        "Backpack, large": {
+          "name": "Backpack, large",
+          "changes": {
+            "system.derivedAttributes.encumbrance.bonus": 2
+          }
+        }
+      }
+    },
+    "Decontamination unit": {
+      "name": "Unidade de descontaminação",
+      "description": "Cura uma vítima incapacitada pela Mácula"
+    },
+    "Bomb": {
+      "name": "Bomba",
+      "description": "Poder de explosão 9, dano 3, crítico 5, inclui detonador a fio"
+    },
+    "Orchid dust": {
+      "name": "Pó de orquídea",
+      "description": "Um pó delicado e cintilante, derivado das pétalas secas da flor de laetha, semelhante a uma orquídea. Conhecido por seus efeitos eufóricos sutis e levemente sedativos, o pó de orquídea é comumente usado por artistas, poetas e filósofos em busca de inspiração ou alívio da ansiedade.\n\n**Propósito:** Concede +2 em testes de DISCERNIMENTO por um período, mas deixa Confuso e Distraído"
+    },
+    "Power drill": {
+      "name": "Furadeira energizada",
+      "description": "Escavar através de rochas e muros, arma improvisada"
+    },
+    "Dusk-­hat": {
+      "name": "Lusco-fusgo",
+      "description": "O fungo cinzento e inchado encontrado nos lugares mais remotos da Cidade-Nave. Conhecido por ser a base de uma sopa excelente e por seu uso pelos assassinos do Sapo Negro, por ser muito venenoso. Um preparo cuidadoso é vital.\n\n**Propósito:** Veneno Letal com toxicidade 9"
+    },
+    "Fine tools": {
+      "name": "Ferramentas de precisão",
+      "description": "Para fazer consertos eletrônicos"
+    },
+    "Zeux field terminal": {
+      "name": "Terminal de campo Zeux",
+      "description": "Terminal de computador leve e dobrável para ler infocubos e conectar-se a comuniganchos e outros terminais através de fios. Consume 1 ponto de suprimentos por entretempo de uso."
+    },
+    "Com wires": {
+      "name": "Fios de comunicação",
+      "description": "Conecta comuniganchos e terminais"
+    }
+  }
+}
