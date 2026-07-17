@@ -1,7 +1,7 @@
 {
   "label": "Talentos",
   "mapping": {
-    "description": "system.description"
+    "description": "system.description.value"
   },
   "folders": {
     "Equipment Talents": "Talentos de Equipamento",

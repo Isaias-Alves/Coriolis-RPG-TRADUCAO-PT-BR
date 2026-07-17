@@ -22,5 +22,13 @@
       }
     ]
   },
-  "esmodules": ["registro.js"]
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "esmodules": ["registro.js"],
+  "styles": ["estilo.css"]
 }

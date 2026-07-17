@@ -1,0 +1,30 @@
+/* ==========================================
+   CORREÇÕES VISUAIS DA FICHA - CORIOLIS PT-BR
+   ========================================== */
+
+/* 1. Afasta "Discernimento" para a esquerda e diminui levemente a fonte */
+.attribute-label.insight {
+    font-size: 0.85rem !important;
+    left: -1.2rem !important;
+}
+
+/* 2. Afasta "Agilidade" levemente para a direita */
+.attribute-label.agility {
+    right: 1rem !important;
+}
+
+/* 3. Afasta "Força" levemente para a esquerda e diminui levemente a fonte */
+.attribute-label.strength {
+    left: 2.4rem !important;
+}
+
+/* 4. Força a quebra de linha nas caixas de descrição (Talentos/Equipamentos) */
+div.expandable-field {
+    white-space: normal !important; /* Permite que o texto desça para a próxima linha */
+    word-wrap: break-word !important; /* Quebra palavras muito longas se necessário */
+    height: auto !important; /* Permite que a caixa cresça para baixo */
+    line-height: 1.2 !important; /* Ajusta o espaçamento entre as linhas */
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-right: 20px !important; /* Evita que o texto encavale no ícone de "+" */
+}

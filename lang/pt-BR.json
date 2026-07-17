@@ -1,1 +1,895 @@
-{}
+{
+  "CORIOLIS_TGD": {
+    "SheetLabels": {
+      "Actor": {
+        "Explorer": "Coriolis: A Grande Escuridão - Ficha de Explorador",
+        "NPC": "Coriolis: A Grande Escuridão - Ficha de NPC",
+        "Creature": "Coriolis: A Grande Escuridão - Ficha de Criatura",
+        "Bird": "Coriolis: A Grande Escuridão - Ficha de Pássaro",
+        "Crew": "Coriolis: A Grande Escuridão - Ficha de Tripulação",
+        "Vehicle": "Coriolis: A Grande Escuridão - Ficha de Veículo (Pipa/Desbravador/Esquife)"
+      },
+      "Item": "Coriolis: A Grande Escuridão - Ficha de Item",
+      "Sheet": "Ficha"
+    },
+    "Actor": {
+      "Tabs": {
+        "Biography": "Bio",
+        "Talents": "Talentos",
+        "Equipments": "Equipamentos",
+        "Combat": "Combate",
+        "Effects": "Efeitos",
+        "Afflictions": "Aflições",
+        "Powers": "Poderes",
+        "Maneuvers": "Manobras",
+        "Cargo": "Carga",
+        "Upgrades": "Melhorias",
+        "Stats": "Estatísticas",
+        "Automations": "Automações",
+        "Solo": "Solo",
+        "Notes": "Notas",
+        "NotCarried": "Não Carregado"
+      },
+      "base": {
+        "FIELDS": {
+          "playMode": {
+            "true": "Mudar para Modo de Edição",
+            "false": "Mudar para Modo de Jogo"
+          },
+          "biography": {
+            "label": "Biografia"
+          },
+          "setValue": "Definir para {value}",
+          "derivedAttributes": {
+            "health": {
+              "value": {
+                "label": "Vida"
+              },
+              "max": {
+                "label": "Vida Máx."
+              }
+            }
+          },
+          "health": {
+            "value": {
+              "label": "Vida"
+            },
+            "max": {
+              "label": "Vida Máxima"
+            }
+          },
+          "hope": {
+            "value": {
+              "label": "Esperança"
+            },
+            "max": {
+              "label": "Esperança Máxima"
+            }
+          },
+          "heart": {
+            "value": {
+              "label": "Âmago"
+            },
+            "max": {
+              "label": "Âmago Máximo"
+            }
+          },
+          "attributes": {
+            "label": "Atributos",
+            "abbr": "Atr.",
+            "selectWhenRolling": {
+              "label": "(selecionar ao rolar)"
+            },
+            "strength": {
+              "label": "Força",
+              "abbr": "FOR"
+            },
+            "agility": {
+              "label": "Agilidade",
+              "abbr": "AGI"
+            },
+            "empathy": {
+              "label": "Empatia",
+              "abbr": "EMP"
+            },
+            "logic": {
+              "label": "Lógica",
+              "abbr": "LOG"
+            },
+            "insight": {
+              "label": "Discernimento",
+              "abbr": "DIS"
+            },
+            "perception": {
+              "label": "Percepção",
+              "abbr": "PER"
+            }
+          },
+          "conditions": {
+            "exhausted": {
+              "label": "Exausto"
+            },
+            "dazed": {
+              "label": "Atordoado"
+            },
+            "shaken": {
+              "label": "Abalado"
+            },
+            "distracted": {
+              "label": "Distraído"
+            },
+            "confused": {
+              "label": "Confuso"
+            },
+            "disheartened": {
+              "label": "Desanimado"
+            }
+          },
+          "bonus": "Bônus"
+        }
+      },
+      "Explorer": {
+        "FIELDS": {
+          "attributes.level.value": {
+            "label": "Nível"
+          },
+          "experience": {
+            "label": "Experiência"
+          },
+          "biography": {
+            "appearance.label": "Aparência",
+            "quirk.label": "Peculiaridade",
+            "motivation.label": "Motivação",
+            "faction.label": "Facção",
+            "contacts.label": "Contatos",
+            "origin.label": "Origem",
+            "others.label": "Outros"
+          },
+          "biography.profession": {
+            "label": "Profissão"
+          },
+          "biography.speciality": {
+            "label": "Especialidade"
+          },
+          "rukh": {
+            "label": "Rukh"
+          },
+          "encumbrance": {
+            "label": "Carga",
+            "abbr": "Car."
+          }
+        }
+      },
+      "Creature": {
+        "FIELDS": {
+          "size": {
+            "label": "Tamanho",
+            "small": {
+              "label": "Pequeno"
+            },
+            "normal": {
+              "label": "Normal"
+            },
+            "large": {
+              "label": "Grande"
+            }
+          },
+          "ferocity": {
+            "label": "Ferocidade"
+          },
+          "armor": {
+            "label": "Armadura"
+          },
+          "containmentProtocol": {
+            "label": "Protocolo de Contenção"
+          },
+          "containmentProtocolBonus": {
+            "label": "Bônus do Prot."
+          },
+          "abilities": {
+            "label": "Habilidades"
+          },
+          "behavior": {
+            "label": "Padrão de Comportamento"
+          },
+          "attacks": {
+            "label": "Ataques de Assinatura"
+          }
+        }
+      },
+      "Bird": {
+        "FIELDS": {
+          "type": {
+            "ward.label": "Guardião",
+            "guide.label": "Guia",
+            "specter.label": "Espectro"
+          },
+          "energy": {
+            "label": "Energia"
+          },
+          "powers.label": "Poderes",
+          "appearance.label": "Aparência",
+          "companion.label": "Companheiro"
+        }
+      },
+      "Crew": {
+        "FIELDS": {
+          "roles": {
+            "label": "Papel",
+            "delver.label": "Incursor",
+            "scout.label": "Batedor",
+            "guard.label": "Guarda",
+            "burrower.label": "Escavador",
+            "archaeologist.label": "Arqueólogo"
+          },
+          "totalSupply.label": "Suprimentos Totais",
+          "crewPoints.label": "Pontos de Tripulação"
+        }
+      },
+      "Vehicle": {
+        "FIELDS": {
+          "maneuverability.label": "Manobrabilidade",
+          "maxManeuverability.label": "Manobrabilidade Máxima",
+          "hull.label": "Casco",
+          "armor.label": "Armadura",
+          "passengers.label": "Passageiros",
+          "slots": {
+            "label": "Espaços",
+            "capacity": "Capacidade de Espaços de Melhoria:"
+          },
+          "cargo": {
+            "label": "Carga",
+            "capacity": "Capacidade de Carga:"
+          },
+          "weapon": {
+            "capacity": "Capacidade de Torretas de Armas:"
+          },
+          "notes.label": "Notas",
+          "paint.label": "Pintura"
+        },
+        "Automation": {
+          "SensorSweep.name": "Varredura de Sensor",
+          "Overload.name": "Sobrecarga",
+          "ArmorRoll": {
+            "name": "Rolagem de Armadura",
+            "item": {
+              "label": "Armadura",
+              "name": "Armadura"
+            }
+          },
+          "BlightProtectionRoll": {
+            "name": "Rolagem de Proteção contra Mácula",
+            "item": {
+              "label": "Proteção contra Mácula",
+              "name": "Proteção contra Mácula"
+            }
+          },
+          "Stunt": {
+            "name": "Acrobacia",
+            "item": {
+              "type": {
+                "name": "Manobrabilidade"
+              }
+            }
+          },
+          "Ramming": {
+            "name": "Abalroamento",
+            "item": {
+              "type": {
+                "name": "Abalroamento"
+              }
+            }
+          }
+        }
+      },
+      "Kite": {
+        "FIELDS": {
+          "cost.label": "Custo"
+        },
+        "Automation": {
+          "UseKite": {
+            "name": "Usar Pipa",
+            "item": {
+              "type": {
+                "name": "Bônus"
+              }
+            }
+          }
+        }
+      },
+      "Rover": {
+        "FIELDS": {
+          "speed.label": "Velocidade",
+          "blightProtection.label": "Proteção contra Mácula",
+          "propulsion.label": "Propulsão"
+        }
+      },
+      "Shuttle": {
+        "FIELDS": {
+          "combatSpeed.label": "Velocidade de Combate",
+          "travelSpeed.label": "Velocidade de Viagem",
+          "range.label": "Alcance"
+        }
+      },
+      "general": {
+        "TransferTo": "Transferir para {actor}",
+        "QuantityToTransfer": "Quantidade a Transferir"
+      }
+    },
+    "Item": {
+      "Tabs": {
+        "Configuration": "Config",
+        "Attributes": "Atributos",
+        "Description": "Info",
+        "Effects": "Efeitos",
+        "Automations": "Auto",
+        "Features": "Características",
+        "DelveInfo": "Info de Incursão"
+      },
+      "Talent": {
+        "FIELDS": {
+          "maxLevel": {
+            "label": "Nível Máximo"
+          },
+          "bonusPerLevel": {
+            "label": "Bônus por Nível"
+          },
+          "currentLevel": {
+            "label": "Nível Atual",
+            "error": "O Nível Atual não deve ser maior que o Nível Máximo"
+          },
+          "attribute": {
+            "label": "Atributo"
+          }
+        }
+      },
+      "Affliction": {
+        "FIELDS": {
+          "afflictionType": {
+            "label": "Tipo de Aflição",
+            "criticalInjury": "Lesão Crítica",
+            "mentalTrauma": "Trauma Mental",
+            "blightManifestation": "Manifestação da Mácula"
+          },
+          "healTime": {
+            "label": "Tempo de Cura"
+          },
+          "lethal": {
+            "label": "Letal"
+          },
+          "permanent": {
+            "label": "Permanente"
+          },
+          "effect": {
+            "label": "Efeito"
+          }
+        }
+      },
+      "Equipment": {
+        "FIELDS": {
+          "supply": {
+            "label": "Suprimento",
+            "automation": "Consumir Suprimento"
+          },
+          "bonus": {
+            "label": "Bônus",
+            "error": "O Bônus não deve ser maior que o Bônus Máximo.",
+            "damaged": "Danificado",
+            "broken": "Quebrado"
+          },
+          "maxBonus": {
+            "label": "Bônus Máximo"
+          },
+          "quantity": {
+            "label": "Quantidade",
+            "abbr": "Qtd."
+          },
+          "deleteWhenZero": {
+            "label": "Excluir quando Qtd. for 0"
+          },
+          "weight": {
+            "0": {
+              "1label": "0.1",
+              "25label": "¼",
+              "5label": "½"
+            },
+            "label": "Peso",
+            "abbr": "Peso",
+            "tiny": {
+              "label": "0: Minúsculo"
+            },
+            "veryLight": {
+              "label": "¼: Muito Leve"
+            },
+            "light": {
+              "label": "½: Leve"
+            },
+            "regular": {
+              "label": "1: Normal"
+            },
+            "heavy": {
+              "label": "2: Pesado"
+            },
+            "veryHeavy": {
+              "label": "3: Muito Pesado"
+            },
+            "superHeavy": {
+              "label": "4: Super Pesado"
+            },
+            "extreme": {
+              "label": "5: Extremo"
+            },
+            "0label": "Minúsculo",
+            "1label": "1",
+            "2label": "2",
+            "3label": "3",
+            "4label": "4",
+            "5label": "5"
+          },
+          "cost": {
+            "label": "Custo",
+            "abbr": "Custo"
+          },
+          "consumable": {
+            "label": "Consumível",
+            "abbr": "Cons."
+          },
+          "supplyConsumed": {
+            "label": "Suprimento Consumido",
+            "abbr": "Suprimento",
+            "description": "Suprimentos consumidos: {supplyConsumed}"
+          },
+          "tech": {
+            "label": "Tecnologia",
+            "ordinary": {
+              "label": "Ordinário",
+              "abbr": "O"
+            },
+            "guildExplorers": {
+              "label": "Guilda dos Exploradores",
+              "abbr": "G(E)"
+            },
+            "guildNavigators": {
+              "label": "Guilda dos Navegadores",
+              "abbr": "G(N)"
+            },
+            "guildMachinists": {
+              "label": "Guilda dos Maquinistas",
+              "abbr": "G(M)"
+            },
+            "guildGardeners": {
+              "label": "Guilda dos Jardineiros",
+              "abbr": "G(J)"
+            },
+            "heirloom": {
+              "label": "Relíquia",
+              "abbr": "C"
+            },
+            "restricted": {
+              "label": "Restrito (*)",
+              "abbr": "*"
+            },
+            "guildGmChoice": {
+              "label": "Guilda (Escolha do Mestre)",
+              "abbr": "G"
+            }
+          },
+          "keepsake": {
+            "label": "Lembrança"
+          },
+          "carried": {
+            "label": "Carregado",
+            "markCarried": "Marcar como Carregado",
+            "markNotCarried": "Marcar como Não Carregado",
+            "notCarried": "Não Carregado",
+            "automationError": "Você não pode executar a automação de itens que não estão sendo carregados."
+          }
+        }
+      },
+      "Weapon": {
+        "label": "Armas",
+        "atHand": {
+          "label": "(Em mãos)",
+          "equip": "Equipar em Mãos",
+          "unequip": "Desequipar em Mãos"
+        },
+        "installed.label": "Instalado",
+        "FIELDS": {
+          "attackType": {
+            "label": "Tipo de Ataque",
+            "close": {
+              "label": "Combate Corpo a Corpo"
+            },
+            "ranged": {
+              "label": "Combate à Distância"
+            },
+            "vehicle": {
+              "label": "Combate de Veículos"
+            }
+          },
+          "grip": {
+            "label": "Empunhadura",
+            "oneHand": {
+              "label": "Uma Mão",
+              "abbr": "1M"
+            },
+            "twoHands": {
+              "label": "Duas Mãos",
+              "abbr": "2M"
+            }
+          },
+          "damage": {
+            "label": "Dano",
+            "abbr": "DANO"
+          },
+          "critical": {
+            "label": "Limiar Crítico",
+            "abbr": "CRÍT"
+          },
+          "blight": {
+            "label": "Mácula",
+            "abbr": "MÁCULA"
+          },
+          "minRange": {
+            "label": "Alcance Mínimo"
+          },
+          "maxRange": {
+            "label": "Alcance Máximo"
+          },
+          "range": {
+            ".label": "-",
+            "label": "Alcance",
+            "engaged": {
+              "label": "Engajado",
+              "abbr": "E"
+            },
+            "short": {
+              "label": "Curto",
+              "abbr": "C"
+            },
+            "medium": {
+              "label": "Médio",
+              "abbr": "M"
+            },
+            "long": {
+              "label": "Longo",
+              "abbr": "L"
+            },
+            "extreme": {
+              "label": "Extremo",
+              "abbr": "X"
+            },
+            "special": {
+              "label": "Especial",
+              "abbr": "S"
+            }
+          },
+          "loaded": {
+            "label": "Carregada / Energizada",
+            "unloaded": "Arma descarregada / sem energia. Recarregue / energize para usá-la novamente.",
+            "noReload": "A arma ainda tem munição. Não é necessário recarregar.",
+            "emptyMagazine": "O pente está vazio."
+          }
+        }
+      },
+      "Armor": {
+        "label": "Armadura",
+        "equipped": {
+          "label": "(equipada)",
+          "equip": "Equipar",
+          "unequip": "Desequipar"
+        },
+        "FIELDS": {
+          "armorRating": {
+            "label": "Classificação da Armadura"
+          },
+          "armorProtection": {
+            "label": "Proteção da Armadura"
+          },
+          "blightProtection": {
+            "label": "Proteção contra Mácula"
+          },
+          "cost": {
+            "label": "Custo"
+          },
+          "extras": {
+            "label": "Extras"
+          },
+          "tech": {
+            "label": "Tecnologia"
+          }
+        }
+      },
+      "CreatureAttack": {
+        "FIELDS": {
+          "attackNumber": {
+            "label": "Número do Ataque"
+          },
+          "baseDice": {
+            "label": "Dados Básicos",
+            "info": "dados {value}"
+          },
+          "damage": {
+            "label": "Dano",
+            "info": "dano {value}"
+          },
+          "damageCritical": {
+            "label": "Crítico",
+            "info": "crít {value}"
+          },
+          "despair": {
+            "label": "Desespero",
+            "info": "desespero {value}"
+          },
+          "blight": {
+            "label": "Mácula",
+            "info": "Mácula {value}"
+          },
+          "range": {
+            "label": "Alcance"
+          },
+          "actions": {
+            "attack": "Rolar Ataque de Assinatura",
+            "behavior": "Rolar Padrão de Comportamento"
+          }
+        }
+      },
+      "BirdPower": {
+        "FIELDS": {
+          "isAttack.label": "É Ataque",
+          "damage.label": "Dano",
+          "critical.label": "Limiar Crítico",
+          "range.label": "Alcance",
+          "minEnergy.label": "Energia Mín.",
+          "energyBonus": "Energia => Bônus"
+        }
+      },
+      "CrewManeuver": {
+        "FIELDS": {
+          "role": {
+            "label": "Papel"
+          }
+        }
+      },
+      "VehicleUpgrade": {
+        "FIELDS": {
+          "bonus.label": "Bônus",
+          "maxBonus.label": "Bônus Máximo",
+          "cost.label": "Custo (CP)",
+          "tech.label": "Tecnologia",
+          "slot.label": "Espaço",
+          "installed.label": "Instalado",
+          "partOfFrame.label": "Parte da Estrutura",
+          "upgradesNotInstalled": "Melhorias não Instaladas"
+        },
+        "uninstall": "Desinstalar",
+        "install": "Instalar"
+      },
+      "RoverUpgrade": {
+        "FIELDS": {}
+      },
+      "Feature": {
+        "FIELDS": {
+          "modifier.label": "Modificador",
+          "type": {
+            "label": "Tipo",
+            "weapon.label": "Característica de Arma",
+            "armor.label": "Característica de Exo & Traje de Incursão"
+          }
+        }
+      },
+      "Solo": {
+        "label": "Diários de Incursão Solo",
+        "tooltip": "Esta é uma implementação básica da ficha de Diário de Incursão Solo. Esteja ciente de que ela não tem nenhuma automação e você precisará atualizar manualmente os campos de acordo com as suas aventuras Solo.",
+        "FIELDS": {
+          "delveClass.label": "Classe de Incursão",
+          "depthClass.label": "Classe de Profundidade",
+          "deepScanBonus.label": "Bônus de Escâner de Profundidade",
+          "blightScanBonus.label": "Bônus de Escâner de Mácula",
+          "distanceToExitBonus.label": "Bônus de Distância para Saída",
+          "forayDistanceBonus.label": "Bônus de Distância de Incursão"
+        }
+      }
+    },
+    "Effect": {
+      "Source": "Origem",
+      "Toggle": "Alternar Efeito",
+      "Temporary": "Efeitos Temporários",
+      "Passive": "Efeitos Passivos",
+      "Inactive": "Efeitos Inativos"
+    },
+    "Chat": {
+      "Success": "Sucessos",
+      "SendToChat": "Enviar para o Chat"
+    },
+    "Automation": {
+      "new": "Novo {type}",
+      "addNew": "Adicionar nova Automação",
+      "automate": "Automatizar {name} [{actor}]",
+      "actorBroken": "\"{actor}\" está quebrado. Tem certeza de que deseja executar esta rolagem?",
+      "Type": {
+        "automation": "Automação",
+        "rollAttribute": "Rolar Atributo",
+        "rollAttack": "Rolar Ataque",
+        "reloadWeapon": "Recarregar / Energizar Arma",
+        "runMacro": "Executar Macro",
+        "consume": "Consumir Item",
+        "consumeSupply": "Consumir Suprimento",
+        "runSequence": "Executar Automações em Sequência",
+        "rollArmorDamage": "Rolar Proteção de Dano da Armadura",
+        "rollArmorBlight": "Rolar Proteção de Mácula da Armadura",
+        "rollCreatureAttack": "Rolar Ataque da Criatura",
+        "rollBirdPower": "Rolar Poder do Pássaro",
+        "rollUpgrade": "Rolar Melhoria"
+      },
+      "Category": {
+        "Default": "Padrão",
+        "Weapons": "Armas",
+        "Armor": "Armadura",
+        "Talent": "Talento",
+        "Equipment": "Equipamento",
+        "Bird": "Pássaro",
+        "Crew": "Tripulação",
+        "Upgrades": "Melhorias",
+        "Other": "Outro"
+      },
+      "FIELDS": {
+        "showAsSelection": {
+          "label": "Mostrar como Seleção"
+        },
+        "attribute": {
+          "label": "Atributo"
+        },
+        "rollAttribute": {
+          "requireAttribute.label": "Requer Atributo",
+          "canChangeAttribute.label": "Pode alterar o Atributo"
+        },
+        "rollAttack": {
+          "notLoaded": "Você não pode atacar com uma arma que não está carregada/energizada.",
+          "postExecutionMacro.label": "Macro Pós Execução"
+        },
+        "reloadWeapon": {
+          "reloaded": "Arma recarregada / energizada. Suprimentos consumidos: {supplyConsumed}. Suprimentos disponíveis: {newQuantity}."
+        },
+        "macro": {
+          "open": "Abrir Macro",
+          "drop": "Solte uma macro aqui ou cole o UUID dela no campo",
+          "error": "Esta automação não é do tipo \"Executar Macro\"",
+          "notFound": "Macro não definida ou não encontrada. Por favor, verifique."
+        },
+        "consume": {
+          "noQuantity": "Este item não possui uma quantidade. Verifique a automação.",
+          "notConsumable": "Este item não está marcado como consumível. Verifique a automação.",
+          "notEnough": "Você não tem mais quantidade para usar deste item.",
+          "itemUsed": "Item usado. Nova quantidade disponível: {newQuantity}"
+        },
+        "consumeSupply": {
+          "noSupplyConsumed": "Este item não tem uma configuração de consumo de suprimento. Verifique a configuração do item.",
+          "notEnough": "Você não tem suprimento suficiente para usar deste item. Suprimentos necessários: {required}. Suprimentos disponíveis: {available}.",
+          "itemUsed": "Item usado e suprimento consumido. Suprimentos consumidos: {supplyConsumed}. Suprimentos disponíveis: {newQuantity}"
+        },
+        "sequence": {
+          "add": "Adicionar Automação à Sequência",
+          "delete": "Excluir Automação da Sequência"
+        },
+        "armorRoll": {
+          "notArmor": "O item associado a esta automação não é uma armadura. Por favor, verifique a configuração.",
+          "armorRatingTitle": "Proteção contra Dano",
+          "blightProtectionTitle": "Proteção contra Mácula",
+          "armorRatingZero": "A classificação da armadura está configurada como zero. Verifique a configuração do item.",
+          "blightProtectionZero": "A proteção contra mácula está configurada como zero. Verifique a configuração do item.",
+          "blightLevel": {
+            "label": "Nível da Mácula"
+          }
+        },
+        "birdPower": {
+          "noExplorer": "Selecione um explorador para comandar o pássaro.",
+          "notEnoughEnergy": "O pássaro não tem energia suficiente para executar este poder."
+        },
+        "upgrade": {
+          "noExplorer": "Selecione um explorador para usar a melhoria do veículo."
+        },
+        "defaultTalent": {
+          "label": "Talento Padrão",
+          "blank": "Nenhum"
+        },
+        "defaultGear": {
+          "label": "Equipamento Padrão",
+          "blank": "Nenhum"
+        }
+      }
+    },
+    "Roller": {
+      "SelectAttribute": {
+        "label": "Selecione o Atributo"
+      },
+      "Bonuses": {
+        "GearBonus": {
+          "label": "Adicionar Equipamento/Arma"
+        },
+        "TalentBonus": {
+          "label": "Adicionar Talento"
+        },
+        "manualBonus": {
+          "label": "Bônus Manual",
+          "name": "{dice} Dados Básicos"
+        },
+        "targetSize": {
+          "label": "Tamanho do Alvo",
+          "proneOrSmall": "Caído ou Pequeno",
+          "largeOrVehicle": "Grande ou Veículo"
+        },
+        "aimed": {
+          "label": "Mirado",
+          "aimedFire": "Tiro Mirado"
+        },
+        "restrained": {
+          "label": "Restringido",
+          "restrainedOrUnaware": "Restringido ou Desprevenido"
+        },
+        "cover": {
+          "label": "Cobertura",
+          "Shrubbery": "Arbusto",
+          "Furniture": "Móveis",
+          "Door": "Porta",
+          "InnerBulkhead": "Antepara interna",
+          "OuterBulkhead": "Antepara externa",
+          "ArmoredBulkhead": "Antepara blindada"
+        }
+      }
+    },
+    "Errors": {
+      "NoTarget": "Nenhum alvo para aplicar o dano."
+    }
+  },
+  "YZUR": {
+    "CHAT.ROLL": {
+      "Push": "Forçar",
+      "Accept": "Aceitar",
+      "EnergyUsed": "Energia Usada",
+      "AttackDamage": "Dano do Ataque",
+      "Trauma": "Esperança Perdida",
+      "GearDamage": "Dano ao Equipamento",
+      "ATTACK": {
+        "DAMAGE": "Dano do Ataque",
+        "CRITICAL": "Limiar Crítico",
+        "DESPAIR": "Dano de Desespero",
+        "BLIGHT": "Dano de Mácula",
+        "ApplyDamage": "Aplicar Dano"
+      }
+    },
+    "DIETERMS": {
+      "GearDie": "Sucessos de Equipamento",
+      "BaseDie": "Sucessos Básicos"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "explorer": "Explorador",
+      "npc": "PNJ",
+      "creature": "Criatura",
+      "bird": "Pássaro",
+      "crew": "Tripulação",
+      "kite": "Pipa",
+      "rover": "Desbravador",
+      "shuttle": "Esquife"
+    },
+    "Item": {
+      "talent": "Talento",
+      "affliction": "Aflição",
+      "equipment": "Equipamento",
+      "weapon": "Arma",
+      "armor": "Armadura",
+      "creatureAttack": "Ataque da Criatura",
+      "creatureAbility": "Habilidade da Criatura",
+      "birdPower": "Poder do Pássaro",
+      "crewManeuver": "Manobra de Tripulação",
+      "kiteUpgrade": "Melhoria de Pipa",
+      "roverUpgrade": "Melhoria de Desbravador",
+      "shuttleUpgrade": "Melhoria de Esquife",
+      "vehicleWeapon": "Arma de Veículo",
+      "feature": "Característica",
+      "solo": "Diário de Incursão Solo"
+    }
+  }
+}
