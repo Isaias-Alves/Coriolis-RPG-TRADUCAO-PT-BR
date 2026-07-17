@@ -1,0 +1,478 @@
+{
+  "label": "Itens de Combate",
+  "mapping": {
+    "description": "system.description.value"
+  },
+  "folders": {
+    "Shuttle Weapon": "Armas de Esquife",
+    "Improvised Weapons": "Armas Improvisadas",
+    "Delving Suits and Exos": "Trajes de Incursão e Exos",
+    "Axes": "Machados",
+    "Shields": "Escudos",
+    "Other Close Combat Weapons": "Outras Armas de Combate Corpo a Corpo",
+    "Pistols": "Pistolas",
+    "Other Ranged Weapons": "Outras Armas à Distância",
+    "Armor": "Armaduras",
+    "Carbines": "Carabinas",
+    "Blunt Weapons": "Armas Contundentes",
+    "Heavy Weapons": "Armas Pesadas",
+    "Blade Weapons": "Armas de Lâmina",
+    "Armor, Exos & Delving Suits": "Armaduras, Exos e Trajes de Incursão",
+    "Weapons": "Armas",
+    "Rifles": "Rifles",
+    "Grenades": "Granadas",
+    "Ranged Weapons": "Armas à Distância",
+    "Features": "Características",
+    "Close Combat Weapons": "Armas de Combate Corpo a Corpo",
+    "Rover Weapons": "Armas de Desbravador"
+  },
+  "entries": {
+    "Stun": {
+      "name": "Atordoante",
+      "description": "**Armas:** A arma causa dano atordoante (página 66), em vez de dano normal.\n\n**Granadas:** Detona com um estrondo alto e um clarão ofuscante. Causa dano atordoante (página 66)."
+    },
+    "Filter Pack": {
+      "name": "Pacote de Filtros",
+      "description": "+2 de proteção contra Mácula durante ataques de Mácula. Uso único."
+    },
+    "Stiletto": {
+      "name": "Estilete",
+      "description": "Ocultável"
+    },
+    "Zapti long-gun": {
+      "name": "Cano-Longo da Zapti",
+      "description": "A arma policial por excelência da Cidade-Nave, fornecida exclusivamente aos oficiais zapti."
+    },
+    "Flamethrower": {
+      "name": "Lança-chamas",
+      "description": "Um item essencial para uma tripulação de Exploradores e a ferramenta perfeita para queimar a Mácula em todas as suas formas, desde cracas de nave até os enxames de insetos iridescentes que infestam as ruínas dos Construtores."
+    },
+    "Low Capacity": {
+      "name": "Baixa Capacidade",
+      "description": "Obtendo um ou mais símbolos de Mácula durante um ataque (mesmo sem forçar) significa que o pente está vazio e a arma precisa ser recarregada (ação completa, 1 suprimento)."
+    },
+    "Cutting torch": {
+      "name": "Maçarico de corte",
+      "description": "Energizado"
+    },
+    "Fusillard revolver": {
+      "name": "Revólver fuzilardo",
+      "description": "A arma de mão mais comum na Cidade-Nave, usada por civis, oficiais da zapti, e bandidos em geral."
+    },
+    "Protective suit": {
+      "name": "Traje protetor"
+    },
+    "Cargo Carrier": {
+      "name": "Porta-Cargas",
+      "description": "Limite de Carga +8.",
+      "effects": {
+        "Cargo Carrier": {
+          "name": "Porta-Cargas",
+          "changes": {
+            "system.derivedAttributes.encumbrance.bonus": 8
+          }
+        }
+      }
+    },
+    "Protherum rifle": {
+      "name": "Rifle protherum"
+    },
+    "Smoke": {
+      "name": "Fumaça",
+      "description": "Espalha uma cortina de fumaça que bloqueia a visão através e para dentro da zona (mas não dentro dela ou saindo dela)."
+    },
+    "Rocket launcher": {
+      "name": "Lança-foguetes",
+      "description": "Explosivo, baixa capacidade"
+    },
+    "Long sword": {
+      "name": "Espada longa"
+    },
+    "Blocks vision": {
+      "name": "Bloqueia visão"
+    },
+    "Tortoise flexi-armor": {
+      "name": "Flexiarmadura tartaruga",
+      "description": "Comunicador, lanterna elétrica, pacote de filtros, visor de combate (+1 DE PERCEPÇÃO)",
+      "effects": {
+        "Combat Display": {
+          "name": "Visor de combate",
+          "changes": {
+            "system.attributesBonus.perception": 1
+          }
+        }
+      }
+    },
+    "Sledgehammer": {
+      "name": "Marreta"
+    },
+    "Patched exo suit": {
+      "name": "Exotraje remendado",
+      "description": "Volumoso, comunicador, lanterna elétrica, botas magnéticas, resistente a vácuo, propulsores de manobra",
+      "effects": {
+        "Bulky": {
+          "name": "Volumoso",
+          "changes": {
+            "system.attributesBonus.agility": -2
+          }
+        }
+      }
+    },
+    "Slim suit": {
+      "name": "Traje utilitário",
+      "description": "Comunicador, lanterna elétrica, resistente a vácuo"
+    },
+    "Guard armor": {
+      "name": "Armadura de guarda",
+      "description": "Comunicador"
+    },
+    "Lumin cannon": {
+      "name": "Canhão de lúmen"
+    },
+    "Defense chaff": {
+      "name": "Chaff Defensivo",
+      "description": "Teste de LÓGICA (reação) impõe -2 dados contra ataques iminentes"
+    },
+    "Reinforced exo helmet": {
+      "name": "Exoelmo reforçado",
+      "effects": {
+        "Reinforced exo helmet": {
+          "name": "Exoelmo reforçado",
+          "changes": {
+            "system.helmetBonus.armorRating": 1
+          }
+        }
+      }
+    },
+    "Whip": {
+      "name": "Chicote",
+      "description": "Flexível, longo"
+    },
+    "Countermeasure Dispenser": {
+      "name": "Dispersor de Contramedidas",
+      "description": "Teste de LÓGICA (reação) impõe -2 dados contra ataques iminentes"
+    },
+    "Short sword": {
+      "name": "Espada curta"
+    },
+    "Dagger": {
+      "name": "Adaga"
+    },
+    "Coiler carbine": {
+      "name": "Carabina bobineira"
+    },
+    "Throwing blade": {
+      "name": "Lâmina arremessável",
+      "description": "Disparo Único"
+    },
+    "Unarmed": {
+      "name": "Desarmado"
+    },
+    "Expandable shield": {
+      "name": "Escudo expansível",
+      "description": "Usado apenas para bloquear ou esquivar"
+    },
+    "Halberd": {
+      "name": "Alabarda",
+      "description": "Longo"
+    },
+    "Long": {
+      "name": "Longa",
+      "description": "+2 dados em ataques e bloqueios na primeira rodada de combate."
+    },
+    "Fusillard carbine": {
+      "name": "Carabina fuzilarda",
+      "description": "Uma favorita entre os guardas das tripulações de exploração, a carabina fuzilarda é robusta e fácil de usar. Suas únicas desvantagens são o alto consumo de munição e o alcance relativamente curto."
+    },
+    "Grenade launcher": {
+      "name": "Lança-granadas"
+    },
+    "Grape rifle": {
+      "name": "Rifle de balim"
+    },
+    "Bird staff": {
+      "name": "Cajado de Pássaro",
+      "description": "Longo"
+    },
+    "Coiler Cannon": {
+      "name": "Lançador bobineiro"
+    },
+    "Fusillard rifle": {
+      "name": "Rifle fuzilardo"
+    },
+    "Delving suit, standard": {
+      "name": "Traje de incursão padrão",
+      "description": "Os trajes Padrão oferecem um equilíbrio entre proteção e flexibilidade, sendo adequados para a maioria das missões de incursão. Com revestimento reforçado, filtro aprimorado e um sistema de oxigênio expandido, estes trajes suportam perigos moderados. Geralmente chamado de Traje Charrumak, em homenagem ao Mestre Incursor Direl Charrumak, este modelo é a escolha confiável de exploradores que precisam de durabilidade e adaptabilidade em condições imprevisíveis.\n\nVolumoso, comunicador, pacote de filtros, lanterna elétrica, resistente a vácuo.",
+      "effects": {
+        "Bulky": {
+          "name": "Volumoso",
+          "changes": {
+            "system.attributesBonus.agility": -2
+          }
+        }
+      }
+    },
+    "Incendiary": {
+      "name": "Incendiária",
+      "description": "Produz uma explosão que também incendeia os alvos (página 71)."
+    },
+    "Autofire": {
+      "name": "Fogo Automático",
+      "description": "Pode efetuar disparos automáticos contínuos (página 64)."
+    },
+    "Power sledge": {
+      "name": "Eletromarreta",
+      "description": "Energizado"
+    },
+    "Pickaxe": {
+      "name": "Picareta"
+    },
+    "Baton": {
+      "name": "Cassetete"
+    },
+    "Electric Lantern": {
+      "name": "Lanterna Elétrica",
+      "description": "Remove os efeitos da escuridão na zona do usuário."
+    },
+    "Fusillard pistol": {
+      "name": "Pistola fuzilarda"
+    },
+    "Humpback carrying exo": {
+      "name": "Exo de carga Jubarte",
+      "description": "Volumosa, comunicador, pacote de filtros, exoservos reforçados, ejetor, porta-cargas",
+      "effects": {
+        "Bulky": {
+          "name": "Volumoso",
+          "changes": {
+            "system.attributesBonus.agility": -2
+          }
+        },
+        "Reinforced Exo Servos": {
+          "name": "Exoservos Reforçados",
+          "changes": {
+            "system.attributesBonus.strength": 2
+          }
+        },
+        "Cargo Carrier": {
+          "name": "Porta-Cargas",
+          "changes": {
+            "system.derivedAttributes.encumbrance.bonus": 8
+          }
+        }
+      }
+    },
+    "Concealable": {
+      "name": "Ocultável",
+      "description": "Exige um teste de PERCEPÇÃO para ser detectada durante uma revista."
+    },
+    "Plow": {
+      "name": "Arado",
+      "description": "Modifica o dano e o limiar de crítico ao abalroar, eliminando o dano sofrido nessa manobra"
+    },
+    "Flamer": {
+      "name": "Tostador",
+      "description": "Energizado, fogo 2"
+    },
+    "Harpoon Cannon": {
+      "name": "Canhão arpoador",
+      "description": "Pode rebocar outros desbravadores se for combinado com o Cabo de Reboque"
+    },
+    "Comlink": {
+      "name": "Comunicador",
+      "description": "Inclui um comunicador pessoal."
+    },
+    "Bulky": {
+      "name": "Volumoso",
+      "description": "**Armas:** Projetada para ser uso montado ou prostrado. Sofre -2 dados ao disparar de pé.\n\n**Exos e Trajes:** -2 em testes de AGILIDADE, exceto em gravidade zero.",
+      "effects": {
+        "Bulky": {
+          "name": "Volumoso",
+          "changes": {
+            "system.attributesBonus.agility": -2
+          }
+        }
+      }
+    },
+    "Fusillard defender": {
+      "name": "Defensor fuzilardo"
+    },
+    "Fusillard spewer": {
+      "name": "Cospe-balas fuzilardo",
+      "description": "Proibido na Cidade-Nave, o cospe-balas é usado principalmente como uma arma montada em desbravadores."
+    },
+    "Multi-wrench": {
+      "name": "Chave multiuso"
+    },
+    "Stunner": {
+      "name": "Atordoador"
+    },
+    "High Capacity": {
+      "name": "Alta Capacidade",
+      "description": "Role um D6 após o combate. Obtendo 4+, não há necessidade de recarregar."
+    },
+    "Grape pistol": {
+      "name": "Pistola de balim",
+      "description": "Uma relíquia do Velho Horizonte, fácil de replicar e a preferida de bandidos e membros do Sapo Negro."
+    },
+    "Smoke Dispenser": {
+      "name": "Dispersor de Fumaça",
+      "description": "Bloqueia a visão em uma zona (veja a página 59 para mais detalhes)"
+    },
+    "Lumin rifle": {
+      "name": "Rifle de lúmen",
+      "description": "Uma relíquia muito cobiçada, usado pelos Coriolitas e sua guarda de honra. A tecnologia de lúmen ainda não foi reproduzida por nenhum dos armeiros das Guildas."
+    },
+    "Flexible": {
+      "name": "Flexível",
+      "description": "Pode ser usada para agarrar, recebendo +2 de bônus. Apenas para armas de combate corpo a corpo."
+    },
+    "Blunt instrument": {
+      "name": "Instrumento contundente"
+    },
+    "Harpoon cannon": {
+      "name": "Canhão arpoador",
+      "description": "Pode rebocar outros desbravadores se for combinado com o Cabo de Reboque"
+    },
+    "Grappling gun": {
+      "name": "Pistola-arpéu",
+      "description": "Favorita dos incursores, a pistola-arpéu foi feita para escalar ruínas. Destroceiros a modificaram para disparar virotes sólidos a partir de uma câmara giratória, chamando-as de \"volvers\"."
+    },
+    "Long rifle": {
+      "name": "Rifle longo",
+      "description": "Disparo Único"
+    },
+    "Defense Missile": {
+      "name": "Míssil Defensivo",
+      "description": "Explosivo"
+    },
+    "Small shield": {
+      "name": "Escudo pequeno",
+      "description": "Usado apenas para bloquear ou esquivar"
+    },
+    "Coiler caster": {
+      "name": "Coiler caster"
+    },
+    "Fire": {
+      "name": "Fogo",
+      "description": "Coloca fogo no alvo com intensidade (página 71) igual ao número listado."
+    },
+    "Reinforced Exo Servos": {
+      "name": "Exoservos Reforçados",
+      "description": "+2 em testes de FORÇA.",
+      "effects": {
+        "Reinforced Exo Servos": {
+          "name": "Exoservos Reforçados",
+          "changes": {
+            "system.attributesBonus.strength": 2
+          }
+        }
+      }
+    },
+    "Maneuvering Thrusters": {
+      "name": "Propulsores de Manobra",
+      "description": "Usados para manobrar exos em gravidade zero. Cada uso consome 1 de suprimento."
+    },
+    "Coiler rifle": {
+      "name": "Rifle bobineiro",
+      "description": "O rifle bobineiro é a arma mais comum fornecida a guardas e milícias de todo o Horizonte. Seu cano longo faz com que seja menos útil para incursores e tripulações de naves."
+    },
+    "Spear": {
+      "name": "Lança",
+      "description": "Longo"
+    },
+    "Fusillard cricket": {
+      "name": "Grilo fuzilardo",
+      "description": "Ocultável e discreto, queridinho dos menos violentos, como atores e balconistas."
+    },
+    "Power drill": {
+      "name": "Furadeira energizada",
+      "description": "Energizado"
+    },
+    "Grape": {
+      "name": "Balim",
+      "description": "Se o ataque acertar, todos que estiverem à distância Engajado do alvo sofrem o mesmo dano."
+    },
+    "Delving suit, heavy": {
+      "name": "Traje de incursão pesado",
+      "description": "Trajes de Incursão pesados são construídos para ambientes de alto risco, com blindagem corporal completa, filtração avançada e sistemas de suporte de vida robustos. Estes trajes sacrificam parte da agilidade em troca de proteção máxima e são os preferidos dos mineradores, exploradores do espaço profundo e prospectores com orientação combativa. Conhecido como Traje Erafat, em referência à fenda abissal para a qual foi originalmente criado, este traje é famoso por sua resiliência nas condições mais extremas.\n\nVolumoso, comunicador, pacote de filtros, lanterna elétrica, resistente a vácuo.",
+      "effects": {
+        "Bulky": {
+          "name": "Volumoso",
+          "changes": {
+            "system.attributesBonus.agility": -2
+          }
+        }
+      }
+    },
+    "Magnetic Boots": {
+      "name": "Botas Magnéticas",
+      "description": "Neutraliza os efeitos da gravidade zero (página 72), mas faz o movimento gastar uma ação completa."
+    },
+    "Flight suit": {
+      "name": "Macacão de voo"
+    },
+    "Powered": {
+      "name": "Energizada",
+      "description": "Após o combate, é necessário gastar um ponto de suprimento para recarregá-la. Apenas para armas corpo a corpo (todas as armas à distância precisam ser recarregadas após o combate)."
+    },
+    "Lumin pistol": {
+      "name": "Pistola de lúmen"
+    },
+    "Saw blades": {
+      "name": "Lâminas Serrilhadas",
+      "description": "Modifica o dano e o limiar de crítico ao abalroar, eliminando o dano sofrido nessa manobra"
+    },
+    "Shovel": {
+      "name": "Pá"
+    },
+    "Combat Display": {
+      "name": "Visor de Combate"
+    },
+    "Vacuum Resistant": {
+      "name": "Resistente a Vácuo",
+      "description": "Protege o usuário contra o vácuo (página 72)."
+    },
+    "Exo suit": {
+      "name": "Exotraje",
+      "description": "Volumoso, comunicador, lanterna elétrica, botas magnéticas, resistente a vácuo, propulsores de manobra",
+      "effects": {
+        "Bulky": {
+          "name": "Volumoso",
+          "changes": {
+            "system.attributesBonus.agility": -2
+          }
+        }
+      }
+    },
+    "Explosive": {
+      "name": "Explosiva",
+      "description": "Se o ataque acertar, todos que estiverem na zona atingida sofrem o mesmo dano (página 71)."
+    },
+    "Hull axe": {
+      "name": "Machado de casco"
+    },
+    "Delving suit, light": {
+      "name": "Traje de incursão leve",
+      "description": "Os trajes de incursão leves priorizam a mobilidade e a ventilação, sendo ideais para batedores que valorizam a velocidade em detrimento de uma proteção pesada. Estes trajes oferecem filtros ambientais básicos e um sistema de oxigênio compacto, perfeitos para missões curtas e de baixo risco. São leves e modulares, permitindo o acoplamento fácil de ferramentas. Conhecido às vezes como Traje Bandak, em homenagem ao seu criador, o Mestre Samiir Bandak, este traje é um favorito entre quem preza pela agilidade e a liberdade de movimento.\n\nComunicador, pacote de filtros, lanterna elétrica, resistente a vácuo."
+    },
+    "Single Shot": {
+      "name": "Disparo Único",
+      "description": "A arma precisa ser recarregada (ação, 1 suprimento) a cada uso."
+    },
+    "Frag": {
+      "name": "Fragmentação",
+      "description": "Detona com uma explosão (página 71) que espalha estilhaços."
+    },
+    "Ejector": {
+      "name": "Ejetor",
+      "description": "Ejeta o usuário do exoesqueleto como uma ação livre."
+    },
+    "Missile launcher": {
+      "name": "Lança mísseis",
+      "description": "Explosivo, disparo único"
+    },
+    "Brass knuckles": {
+      "name": "Soqueira"
+    }
+  }
+}
