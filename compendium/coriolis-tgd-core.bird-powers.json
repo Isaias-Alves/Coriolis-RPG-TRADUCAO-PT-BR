@@ -1,0 +1,88 @@
+{
+  "label": "Poderes de Garuda",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "All": "Todos",
+    "Basic Garuda Powers": "Poderes de Garuda Básicos",
+    "Guide": "Guia",
+    "Advanced Garuda Powers": "Poderes de Garuda Avançados",
+    "Specter": "Espectro",
+    "Ward": "Vigia"
+  },
+  "entries": {
+    "Flicker Field": {
+      "name": "Campo de Intermitência",
+      "description": "<p><strong>Tipo:</strong> Todos</p><p><strong>Efeito:</strong> O Pássaro cria um campo de realidade intermitente, protegendo completamente um Explorador contra todos os ataques à distância até o fim da rodada. Cada sucesso extra significa que mais um Explorador que estiver na zona é protegido.</p><p><strong>Expressão:</strong> O peito do Pássaro se infla conforme um campo composto por sua cor primária e cria um escudo à frente dos Exploradores.</p>"
+    },
+    "Fetch": {
+      "name": "Buscar",
+      "description": "<p><strong>Tipo:</strong> Todos</p><p><strong>Efeito:</strong> O Pássaro voa e busca um objeto comum e claramente visível, que esteja até o alcance Extremo.</p><p><strong>Expressão:</strong> O Pássaro estende suas asas completamente antes de pousar.</p>"
+    },
+    "Illusionary Veil": {
+      "name": "Véu Ilusório",
+      "description": "<p><strong>Tipo:</strong> Guia</p><p><strong>Efeito:</strong> O Pássaro cria um véu ilusório que esconde um Explorador da vista, inclusive de escâneres. Cada sucesso extra significa que mais um Explorador que estiver na zona é ocultado. O efeito dura um entretempo.</p><p><strong>Expressão:</strong> O Pássaro pousa imóvel no Explorador, ficando desfocado enquanto seu poder entra em vigor.</p>"
+    },
+    "Soak Blight": {
+      "name": "Absorver Mácula",
+      "description": "<p><strong>Efeito:</strong> Usado como uma reação para absorver toda a Mácula de uma fonte antes que ela possa afetar qualquer Explorador.</p><p><strong>Expressão:</strong> O Pássaro começa a brilhar em cores de azul-relâmpago e turquesa enquanto fraturas se espalham por seu corpo, conforme vai absorvendo e contendo a Mácula.</p>"
+    },
+    "Raptor’s Call": {
+      "name": "Chamado da Rapina",
+      "description": "<p><strong>Tipo:</strong> Vigia</p><p><strong>Efeito:</strong> Com o auxílio do Pássaro, um ataque realizado por um Explorador posteriormente na rodada causa uma lesão crítica automática se acertar, independente de ter penetrado a cobertura e a armadura ou não.</p><p><strong>Expressão:</strong> O Pássaro solta um grasnado curto e agudo, direcionando uma flutuação semivisível pelo ar que coincide com o ataque do Explorador.</p>"
+    },
+    "Soul Delve": {
+      "name": "Incursão Espiritual",
+      "description": "<p><strong>Tipo:</strong> Espectro</p><p><strong>Efeito:</strong> O Pássaro funde-se à mente de um Explorador, concedendo-lhe descanso e reavivando sua esperança. O Explorador recupera toda a Esperança perdida, mesmo que tenha sido incapacitado por desespero.</p><p><strong>Expressão:</strong> O Pássaro reluz com uma tonalidade laranja quente, iluminando o Explorador.</p>"
+    },
+    "Glow": {
+      "name": "Brilhar",
+      "description": "<p><strong>Efeito:</strong> O Pássaro emite uma luz radiante que fornece iluminação por um período na zona que ele estiver e em todas as zonas adjacentes (alcance Médio).</p><p><strong>Expressão:</strong> O corpo do Pássaro começa a brilhar com uma luz branco-amarela brilhante.</p>"
+    },
+    "Blight Scan": {
+      "name": "Varredura de Mácula",
+      "description": "<p><strong>Efeito:</strong> O Pássaro voa à frente (até quatro zonas) e busca por Mácula, para que ela possa ser lida pelo dispositivo Garuda.</p><p><strong>Expressão:</strong> Ao retornar, o Pássaro bica o escâner e o dispositivo Garuda.</p><p><strong>Nota:</strong> Este poder não gasta pontos de Energia.</p>"
+    },
+    "Clear Blight": {
+      "name": "Purificar Mácula",
+      "description": "<p><strong>Efeito:</strong> Limpa toda a Mácula de uma zona por um período. A duração aumenta em um período para cada sucesso extra.</p><p><strong>Expressão:</strong> O Pássaro abre suas asas na frente de todos, cobrindo a área de maneira protetora.</p>"
+    },
+    "Energy Bridge": {
+      "name": "Ponte de Energia",
+      "description": "<p><strong>Tipo:</strong> Vigia</p><p><strong>Efeito:</strong> O Pássaro projeta uma ponte de energia sólida a partir do nada. Ela se estende por até 5 metros e consegue suportar até 200 quilos. Cada sucesso extra pode estender o comprimento em 5 metros ou aumentar a capacidade em 200 kg. A ponte desaparece após um entretempo.</p><p><strong>Expressão:</strong> Um feixe de energia escura, da cor primária do Pássaro, emana do bico aberto da criatura.</p>"
+    },
+    "Dimensional Flitting": {
+      "name": "Trânsito Dimensional",
+      "description": "<p><strong>Tipo:</strong> Todos</p><p><strong>Efeito:</strong> O Pássaro abre um portal para um lugar onde esteve nas últimas vinte e quatro horas. A distância máxima até o local, em zonas, é igual ao dobro de sucessos obtidos. O portal dura apenas uma rodada, e qualquer objeto do tamanho de um humano ou menor pode atravessá-lo — incluindo o próprio Pássaro.</p><p><strong>Expressão:</strong> O Pássaro aponta as asas para cima e pequenas descargas aparentemente elétricas se espalham a partir das pontas delas, criando uma fenda esférica.</p>"
+    },
+    "Delve Dream": {
+      "name": "Incursão Onírica",
+      "description": "<p><strong>Tipo:</strong> Todos</p><p><strong>Efeito:</strong> O Pássaro envia uma visão onírica sobre a incursão atual, ajudando os Exploradores a encontrarem uma passagem mais segura pelos túneis. Os Exploradores podem adentrar três zonas antes de acionarem um evento, independente do resultado do teste de incursão (página 211).</p><p><strong>Expressão:</strong> O peito do Pássaro parece brilhar em uma cor branco-amarelada enquanto transmite a visão ao Explorador.</p>"
+    },
+    "Farsight": {
+      "name": "Visão Além do Alcance",
+      "description": "<p><strong>Tipo:</strong> Guia</p><p><strong>Efeito:</strong> Enquanto o Pássaro faz reconhecimento do terreno, seu companheiro consegue enxergar o mesmo que ele, a uma distância máxima em zonas igual ao dobro de sucessos obtidos.</p><p><strong>Expressão:</strong> O Pássaro estica a cabeça para o alto, brilhando levemente antes de levantar voo.</p>"
+    },
+    "Attack": {
+      "name": "Atacar",
+      "description": "<p><strong>Efeito:</strong> Dano básico 3, limiar de crítico 6, alcance Longo</p><p><strong>Expressão:</strong> O Pássaro estica a cabeça para a frente, abre o bico e solta um grasnado agudo.</p>"
+    },
+    "Glyph Warden": {
+      "name": "Guarda-Glifos",
+      "description": "<p><strong>Tipo:</strong> Todos</p><p><strong>Efeito:</strong> Como uma reação, o Pássaro bloqueia o efeito de um Glifo que esteja afetando um Explorador (página 230). Cada sucesso extra significa que mais um Explorador que estiver na zona é protegido.</p><p><strong>Expressão:</strong> O Glifo fica opaco ou desfocado por um instante enquanto o Pássaro bloqueia seu efeito.</p>"
+    },
+    "Phoenix Engine": {
+      "name": "Motor Fênix",
+      "description": "<p><strong>Tipo:</strong> Todos</p><p><strong>Efeito:</strong> Se for incapacitado ou até mesmo morto (pelo menos no último período), o Pássaro volta à vida e recupera toda sua Vida. Isso é uma exceção à regra de que Pássaros não podem usar poderes quando estão incapacitados.</p><p><strong>Expressão:</strong> Chamas brilhantes envolvem o Pássaro por um instante. Quando elas se dissipam, o Pássaro fica coberto por uma cinza branca que se desfaz e cai ao chão.</p>"
+    },
+    "Defend": {
+      "name": "Defender",
+      "description": "<p><strong>Efeito:</strong> Usado como uma reação para proteger um Explorador de um ataque, como um bloqueio ou esquiva.</p><p><strong>Expressão:</strong> O Pássaro abre suas asas, cobrindo o Explorador que está defendendo.</p>"
+    },
+    "Enshroud": {
+      "name": "Mortalha",
+      "description": "<p><strong>Tipo:</strong> Espectro</p><p><strong>Efeito:</strong> O Pássaro envolve um Explorador com um campo protetor, protegendo-o completamente da Mácula por um entretempo. Este poder pode ser usado como uma reação contra um ataque de Mácula.</p><p><strong>Expressão:</strong> O Pássaro cruza as asas ao ativar o campo, brilhando por um instante em sua cor primária enquanto envolve o Explorador com a mortalha.</p>"
+    }
+  }
+}
