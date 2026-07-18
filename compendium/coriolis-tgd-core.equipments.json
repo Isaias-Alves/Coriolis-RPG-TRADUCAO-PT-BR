@@ -1,7 +1,7 @@
 {
   "label": "Equipamentos",
   "mapping": {
-    "description": "system.description.value"
+    "description": "system.description"
   },
   "folders": {
     "General Equipment & Clothing": "Equipamento Geral e Vestuário",

@@ -1,0 +1,95 @@
+{
+  "label": "Manobras de Tripulação",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Delver": "Incursor",
+    "Scout": "Batedor",
+    "Archaeologist": "Arqueólogo",
+    "Burrower": "Escavador",
+    "Guard": "Guarda"
+  },
+  "entries": {
+    "Field Recovery": {
+      "name": "Recuperação de Campo",
+      "description": "Você ou outro Explorador ao alcance Engajado recupera três (3) pontos de Vida, mesmo que não esteja Incapacitado. Exige uma MediDose."
+    },
+    "Feint": {
+      "name": "Finta",
+      "description": "Outro Explorador que está mesma zona pode esquivar sem precisar de uma ação. Esta Manobra pode ser usada como uma reação."
+    },
+    "Protect": {
+      "name": "Proteger",
+      "description": "Quando outro Explorador for atacado em combate corpo a corpo na mesma zona, você pode ativar esta manobra para fazer o ataque acertar você, em vez do alvo pretendido. Você pode tentar esquivar ou bloquear normalmente, se ainda tiver ações."
+    },
+    "Rope Master": {
+      "name": "Mestre das Cordas",
+      "description": "Você prende com cordas um inimigo (adversário ou criatura) ao alcance Engajado. O inimigo fica agarrado (página 62) e só pode tentar se libertar com um teste de AGILIDADE com –2 dados básicos."
+    },
+    "Concentrate Fire": {
+      "name": "Fogo Concentrando",
+      "description": "Durante esta rodada, todos os Exploradores ao alcance Médio recebem +2 dados básicos ao atacar com armas à distância um alvo específico."
+    },
+    "Analyze": {
+      "name": "Analisar",
+      "description": "Você e outro Explorador que estiver na mesma zona recebem +2 dados básicos para um ataque contra um inimigo específico."
+    },
+    "Find Weak Spot": {
+      "name": "Encontrar Ponto Fraco",
+      "description": "O Explorador descobre um ponto fraco na armadura do inimigo, reduzindo o valor da armadura para 0 por um ataque."
+    },
+    "Flank": {
+      "name": "Flanquear",
+      "description": "Você recebe +3 dados básicos em um teste de ataque contra um inimigo."
+    },
+    "Fearless": {
+      "name": "Destemido",
+      "description": "Você automaticamente evita sofrer desespero por encontrar uma criatura horripilante (página 68). Esta Manobra pode ser usada como uma reação."
+    },
+    "One Step Ahead": {
+      "name": "Um Passo à Frente",
+      "description": "Você pode adiar sua iniciativa (página 58) e trocar de carta de iniciativa com outro Explorador, mesmo que ele já tenha agido nesta rodada, concedendo um segundo turno às custas do seu próprio."
+    },
+    "Smoke Screen": {
+      "name": "Cortina de Fumaça",
+      "description": "Você preenche com fumaça a zona em que se encontra e uma zona adjacente. A fumaça bloqueia a linha de visão (página 60). A fumaça é dissipada após três rodadas. Exige uma carga de explosivos ou uma granada de fumaça."
+    },
+    "Rally": {
+      "name": "Agrupar",
+      "description": "Todos os Exploradores ao alcance Médio restauram 1 de Esperança (mesmo que estejam Incapacitados) ou se recuperam de uma condição à escolha deles."
+    },
+    "Bait & Switch": {
+      "name": "Engana e Pega",
+      "description": "Um único inimigo ao alcance Curto perde o turno (apenas um turno, se tiver vários) nesta rodada."
+    },
+    "Command": {
+      "name": "Comando",
+      "description": "Você emite uma ordem, concedendo a outro Explorador ao alcance Médio uma ação completa extra instantaneamente, quebrando a ordem dos turnos."
+    },
+    "Situational Awareness": {
+      "name": "Consciência Situacional",
+      "description": "Você ganha uma ação de esquivar adicional. Esta Manobra pode ser usada como uma reação."
+    },
+    "Escape Route": {
+      "name": "Rota de Fuga",
+      "description": "Você e outro Explorador ao alcance Médio ganham uma ação de movimento livre que pode ser usada para recuar de um inimigo com quem estejam Engajados."
+    },
+    "See Pattern": {
+      "name": "Reconhecer Padrões",
+      "description": "Você identifica o padrão que uma criatura está usando e recebe +2 dados básicos em testes relacionados a ela nesta rodada, incluindo ataques e testes defensivos. Esta Manobra pode ser usada como uma reação. Você também pode recordar o Procedimento Recomendado da Guilda dos Exploradores para esse tipo de criatura."
+    },
+    "Bird Call": {
+      "name": "Chamar o Pássaro",
+      "description": "Você convoca o Pássaro, induzindo-o a usar um dos poderes de Garuda dele sem precisar gastar uma ação."
+    },
+    "Destabilize": {
+      "name": "Desestabilizar",
+      "description": "Uma parede ou limite de zona ao alcance Médio é destruído, abrindo uma passagem ou tornando-o intransponível. Exige uma carga de explosivos."
+    },
+    "Demolition": {
+      "name": "Demolição",
+      "description": "Uma zona ao alcance Médio é bloqueada por escombros, ficando obstruída (página 59). Exige uma carga de explosivos ou uma granada explosiva."
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "label": "Itens de Combate",
   "mapping": {
-    "description": "system.description.value"
+    "description": "system.description"
   },
   "folders": {
     "Shuttle Weapon": "Armas de Esquife",
