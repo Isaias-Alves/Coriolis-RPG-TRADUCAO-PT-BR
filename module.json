@@ -32,5 +32,5 @@
   "esmodules": ["registro.js"],
   "styles": ["estilo.css"],
   "manifest": "https://raw.githubusercontent.com/Isaias-Alves/coriolis-rpg-traducao-pt-br/main/module.json",
-  "download": "https://github.com/Isaias-Alves/coriolis-rpg-traducao-pt-br/blob/main/module.json"
+  "download": "https://raw.githubusercontent.com/Isaias-Alves/coriolis-rpg-traducao-pt-br/refs/heads/main/module.json"
 }
