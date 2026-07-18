@@ -1,6 +1,6 @@
 # 🌌 Coriolis RPG - Tradução PT-BR (Foundry VTT)
 
-Tradução do sistema **Coriolis: The Third Horizon** para o Português Brasileiro no Foundry VTT. Esta é uma tradução feita de fã para fã, não oficial e sem fins lucrativos, e pode conter erros.
+Tradução do sistema **Coriolis: The Great Darkness** para o Português Brasileiro no Foundry VTT. Esta é uma tradução feita de fã para fã, não oficial e sem fins lucrativos, e pode conter erros.
 
 ## 📦 O que já está traduzido (v1.0.0)
 
