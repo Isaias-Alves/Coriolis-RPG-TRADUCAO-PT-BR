@@ -31,5 +31,6 @@
   ],
   "esmodules": ["registro.js"],
   "styles": ["estilo.css"],
-  "download": "[https://github.com/SeuUsuario/Coriolis-RPG-TRADUCAO-PT-BR/releases/download/v1.0.0/module.zip](https://github.com/SeuUs/Coriolis-RPG-TRADUCAO-PT-BR/releases/download/v1.0.0/module.zip)"
+  "manifest": "https://raw.githubusercontent.com/Isaias-Alves/coriolis-rpg-traducao-pt-br/main/module.json",
+  "download": "https://github.com/Isaias-Alves/coriolis-rpg-traducao-pt-br/releases/download/v1.0.0/module.zip"
 }
