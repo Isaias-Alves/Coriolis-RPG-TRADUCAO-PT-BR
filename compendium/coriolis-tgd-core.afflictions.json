@@ -1,0 +1,517 @@
+{
+  "label": "Aflições",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Blight Manifestation": "Manifestação Macular",
+    "Mental Trauma": "Trauma Mental",
+    "Critical Injury": "Lesão Crítica"
+  },
+  "entries": {
+    "Amnesia": {
+      "name": "Amnésia",
+      "description": "<p><strong>Efeito:</strong> Você perde toda a memória, não consegue se lembrar de quem é ou quem são os outros Exploradores.</p>",
+      "effects": {
+        "Amnesia": {
+          "name": "Amnésia"
+        }
+      }
+    },
+    "Phantom sensations": {
+      "name": "Sensações fantasmas",
+      "description": "<p><strong>Descrição:</strong> Você sente sua pele coçar e queimar intensamente.</p><p><strong>Efeito:</strong> Você fica Aturdido.</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Phantom sensations": {
+          "name": "Sensações fantasmas"
+        }
+      }
+    },
+    "Grazing hit": {
+      "name": "Acerto de raspão",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Abalado.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Grazing hit": {
+          "name": "Acerto de raspão"
+        }
+      }
+    },
+    "Nebulous breath": {
+      "name": "Hálito nebuloso",
+      "description": "<p><strong>Descrição:</strong> Seu hálito se manifesta visivelmente como uma névoa rodopiante.</p><p><strong>Efeito:</strong> Todos que estiverem na sua zona ficam Abalados.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Nebulous breath": {
+          "name": "Hálito nebuloso"
+        }
+      }
+    },
+    "Severed leg": {
+      "name": "Perna decepada",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> Mover-se passa a gastar uma ação.</p><p><strong>Tempo de Cura:</strong> Permanente</p>",
+      "effects": {
+        "Severed leg": {
+          "name": "Perna decepada"
+        }
+      }
+    },
+    "Winded": {
+      "name": "Ofegante",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Exausto.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Winded": {
+          "name": "Ofegante"
+        }
+      }
+    },
+    "Crystalline growths": {
+      "name": "Tumores cristalinos",
+      "description": "<p><strong>Descrição:</strong> Cristais crescem dos seus poros, causando dor e danificando seu traje de incursão.</p><p><strong>Efeito:</strong> Você sofre 2 pontos de dano e seu traje perde 2 pontos de valor de armadura e proteção contra Mácula.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Crystalline growths": {
+          "name": "Tumores cristalinos"
+        }
+      }
+    },
+    "Trembling": {
+      "name": "Tremendo",
+      "description": "<p><strong>Efeito:</strong> Você fica Aturdido.</p>",
+      "effects": {
+        "Trembling": {
+          "name": "Tremendo"
+        }
+      }
+    },
+    "Indigo eyes": {
+      "name": "Olhos índigo",
+      "description": "<p><strong>Descrição:</strong> Sua visão muda conforme que seus olhos adquirem uma profunda coloração índigo.</p><p><strong>Efeito:</strong> Você consegue enxergar no escuro, mas fica Distraído por luz forte.</p><p><strong>Tempo de Cura:</strong> Permanente</p>",
+      "effects": {
+        "Indigo eyes": {
+          "name": "Olhos índigo"
+        }
+      }
+    },
+    "Ashen skin": {
+      "name": "Pele cinzenta",
+      "description": "<p><strong>Descrição:</strong> Sua pele adquire um tom de cinza pálido e mortal, ficando rachada e semelhante a casca de árvore.</p><p><strong>Efeito:</strong> Sua pele adquire 1 de valor de armadura, mas você fica Desanimado.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Ashen skin": {
+          "name": "Pele cinzenta"
+        }
+      }
+    },
+    "Blight veins": {
+      "name": "Veias maculares",
+      "description": "<p><strong>Descrição:</strong> Veias escuras visíveis se espalham por seu corpo, pulsando de dor.</p><p><strong>Efeito:</strong> Você fica Abalado e Desanimado.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Blight veins": {
+          "name": "Veias maculares"
+        }
+      }
+    },
+    "Addict": {
+      "name": "Viciado",
+      "description": "<p><strong>Efeito:</strong> Você precisa consumir alguma droga todos os dias, ou fica Desanimado.</p>",
+      "effects": {
+        "Addict": {
+          "name": "Viciado"
+        }
+      }
+    },
+    "Phobic": {
+      "name": "Fóbico",
+      "description": "<p><strong>Efeito:</strong> Você sofre 1 ponto de desespero a rodada que estiver ao alcance Curto do objeto da sua fobia, que é conectado ao evento traumático.</p>",
+      "effects": {
+        "Phobic": {
+          "name": "Fóbico"
+        }
+      }
+    },
+    "Broken hand": {
+      "name": "Mão quebrada",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> O braço não pode ser usado.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Broken hand": {
+          "name": "Mão quebrada"
+        }
+      }
+    },
+    "Paranoia": {
+      "name": "Paranoia",
+      "description": "<p><strong>Efeito:</strong> Você tem certeza de que alguém quer te pegar.</p>",
+      "effects": {
+        "Paranoia": {
+          "name": "Paranoia"
+        }
+      }
+    },
+    "Anxious": {
+      "name": "Ansioso",
+      "description": "<p><strong>Efeito:</strong> Você fica Abalado.</p>",
+      "effects": {
+        "Anxious": {
+          "name": "Ansioso"
+        }
+      }
+    },
+    "Blisters": {
+      "name": "Bolhas",
+      "description": "<p><strong>Descrição:</strong> Sua pele desenvolve bolhas dolorosas e purulentas que se espalham rápido.</p><p><strong>Efeito:</strong> Você sofre 1 ponto de dano.</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Blisters": {
+          "name": "Bolhas"
+        }
+      }
+    },
+    "Mythomaniac": {
+      "name": "Mitomaníaco",
+      "description": "<p><strong>Efeito:</strong> Você não consegue parar de mentir sobre tudo.</p>",
+      "effects": {
+        "Mythomaniac": {
+          "name": "Mitomaníaco"
+        }
+      }
+    },
+    "Broken leg": {
+      "name": "Perna quebrada",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Mover-se passa a gastar uma ação.</p><p><strong>Tempo de Cura:</strong> 2D6 dias</p>",
+      "effects": {
+        "Broken leg": {
+          "name": "Perna quebrada"
+        }
+      }
+    },
+    "Broken foot": {
+      "name": "Pé quebrado",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Mover-se passa a gastar uma ação.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Broken foot": {
+          "name": "Pé quebrado"
+        }
+      }
+    },
+    "Severed arm": {
+      "name": "Braço decepado",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> O braço não pode ser usado.</p><p><strong>Tempo de Cura:</strong> Permanente</p>",
+      "effects": {
+        "Severed arm": {
+          "name": "Braço decepado"
+        }
+      }
+    },
+    "Concussion": {
+      "name": "Concussão",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Confuso.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Concussion": {
+          "name": "Concussão"
+        }
+      }
+    },
+    "Stunned": {
+      "name": "Atordoado",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Aturdido.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Stunned": {
+          "name": "Atordoado"
+        }
+      }
+    },
+    "Severed ear": {
+      "name": "Orelha cortada",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Distraído.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Severed ear": {
+          "name": "Orelha cortada"
+        }
+      }
+    },
+    "Glow": {
+      "name": "Brilho",
+      "description": "<p><strong>Descrição:</strong> Seu corpo emite um brilho suave e bioluminescente.</p><p><strong>Efeito:</strong> Todos os adversários recebem +2 de PERCEPÇÃO para localizá-lo.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Glow": {
+          "name": "Brilho"
+        }
+      }
+    },
+    "Shivers": {
+      "name": "Calafrios",
+      "description": "<p><strong>Descrição:</strong> Você é acometido por tremores incontroláveis.</p><p><strong>Efeito:</strong> Você fica Exausto.</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Shivers": {
+          "name": "Calafrios"
+        }
+      }
+    },
+    "Punctured lung": {
+      "name": "Pulmão perfurado",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> Você fica Exausto e Aturdido.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Punctured lung": {
+          "name": "Pulmão perfurado"
+        }
+      }
+    },
+    "Nightmares": {
+      "name": "Pesadelos",
+      "description": "<p><strong>Efeito:</strong> Faça um teste de DISCERNIMENTO a cada período que dormir. Falhar significa que o sono não contou como descanso.</p>",
+      "effects": {
+        "Nightmares": {
+          "name": "Pesadelos"
+        }
+      }
+    },
+    "Sullen": {
+      "name": "Carrancudo",
+      "description": "<p><strong>Efeito:</strong> Você fica Desanimado.</p>",
+      "effects": {
+        "Sullen": {
+          "name": "Carrancudo"
+        }
+      }
+    },
+    "Cease to exist": {
+      "name": "Deixar de existir",
+      "description": "<p><strong>Descrição:</strong> Você deixa de existir. Ninguém da tripulação lembra mais quem você é.</p><p><strong>Efeito:</strong> Seu Explorador se foi</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Cease to exist": {
+          "name": "Deixar de existir"
+        }
+      }
+    },
+    "Dust cough": {
+      "name": "Tosse seca",
+      "description": "<p><strong>Descrição:</strong> Você é afligido por uma tosse seca e persistente.</p><p><strong>Efeito:</strong> Você sofre de uma doença de virulência 4.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Dust cough": {
+          "name": "Tosse seca"
+        }
+      }
+    },
+    "Hallucinations": {
+      "name": "Alucinações",
+      "description": "<p><strong>Efeito:</strong> A cada período, você vivencia uma alucinação com potencial de perda de 1 de Esperança. Se passar no teste de EMPATIA, não sofre o efeito.</p>",
+      "effects": {
+        "Hallucinations": {
+          "name": "Alucinações"
+        }
+      }
+    },
+    "Claustrophobic": {
+      "name": "Claustrofóbico",
+      "description": "<p><strong>Efeito:</strong> Você sofre 1 ponto de desespero a cada entretempo que passar em espaços confinados.</p>",
+      "effects": {
+        "Claustrophobic": {
+          "name": "Claustrofóbico"
+        }
+      }
+    },
+    "Bloom": {
+      "name": "Floração",
+      "description": "<p><strong>Descrição:</strong> Uma flora vívida e alienígena com tons de azul e roxo emerge dos seus poros.</p><p><strong>Efeito:</strong> Todos que estiverem na sua zona ficam Abalados.</p><p><strong>Tempo de Cura:</strong> Permanente</p>",
+      "effects": {
+        "Bloom": {
+          "name": "Floração"
+        }
+      }
+    },
+    "Broken ribs": {
+      "name": "Costelas fraturadas",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Exausto e Aturdido.</p><p><strong>Tempo de Cura:</strong> 2D6 dias</p>",
+      "effects": {
+        "Broken ribs": {
+          "name": "Costelas fraturadas"
+        }
+      }
+    },
+    "Burst intestines": {
+      "name": "Ruptura intestinal",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> Você fica Exausto, doença com virulência 6.</p><p><strong>Tempo de Cura:</strong> Veja a página 74</p>",
+      "effects": {
+        "Burst intestines": {
+          "name": "Ruptura intestinal"
+        }
+      }
+    },
+    "Crippling pain": {
+      "name": "Dor debilitante",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Confuso.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Crippling pain": {
+          "name": "Dor debilitante"
+        }
+      }
+    },
+    "Call of the deep": {
+      "name": "Chamado das profundezas",
+      "description": "<p><strong>Descrição:</strong> Você sente uma compulsão forte por adentar ainda mais fundo no inexplorado.</p><p><strong>Efeito:</strong> Este efeito deve ser interpretado.</p><p><strong>Tempo de Cura:</strong> D6 períodos</p>",
+      "effects": {
+        "Call of the deep": {
+          "name": "Chamado das profundezas"
+        }
+      }
+    },
+    "Wander the Pale Halls": {
+      "name": "Percorrer os Salões Pálidos",
+      "description": "<p><strong>Descrição:</strong> Você entra em coma, experienciando alucinações vívidas dos oníricos Salões Pálidos, que se estendem ao infinito.</p><p><strong>Efeito:</strong> Você fica permanentemente incapacitado.</p><p><strong>Tempo de Cura:</strong> Permanente</p>",
+      "effects": {
+        "Wander the Pale Halls": {
+          "name": "Percorrer os Salões Pálidos"
+        }
+      }
+    },
+    "Broken arm": {
+      "name": "Braço quebrado",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> O braço não pode ser usado.</p><p><strong>Tempo de Cura:</strong> 2D6 dias</p>",
+      "effects": {
+        "Broken arm": {
+          "name": "Braço quebrado"
+        }
+      }
+    },
+    "Delusion": {
+      "name": "Delírios",
+      "description": "<p><strong>Efeito:</strong> Você está totalmente convencido de que algo não é verdade.</p>",
+      "effects": {
+        "Delusion": {
+          "name": "Delírios"
+        }
+      }
+    },
+    "Apathetic": {
+      "name": "Apático",
+      "description": "<p><strong>Efeito:</strong> Você não pode forçar testes.</p>",
+      "effects": {
+        "Apathetic": {
+          "name": "Apático"
+        }
+      }
+    },
+    "Catatonic": {
+      "name": "Catatônico",
+      "description": "<p><strong>Efeito:</strong> Você encara o vazio sem expressão e não responde a estímulo algum.</p>",
+      "effects": {
+        "Catatonic": {
+          "name": "Catatônico"
+        }
+      }
+    },
+    "Creeper": {
+      "name": "Sarraga",
+      "description": "<p><strong>Descrição:</strong> Vinhas finas e secas aparecem pelo seu corpo, alojando-se em sua carne.</p><p><strong>Efeito:</strong> Você perde 2 de Vida e 2 de Esperança.</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Creeper": {
+          "name": "Sarraga"
+        }
+      }
+    },
+    "Echoes": {
+      "name": "Ecos",
+      "description": "<p><strong>Descrição:</strong> Você ouve sussurros indistinguíveis quando o ambiente está em silêncio.</p><p><strong>Efeito:</strong> Você fica Distraído.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Echoes": {
+          "name": "Ecos"
+        }
+      }
+    },
+    "Gouged eye": {
+      "name": "Olho arrancado",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Distraído.</p><p><strong>Tempo de Cura:</strong> 2D6 dias</p>",
+      "effects": {
+        "Gouged eye": {
+          "name": "Olho arrancado"
+        }
+      }
+    },
+    "Heart attack": {
+      "name": "Ataque cardíaco",
+      "description": "<p><strong>Efeito:</strong> Seu coração para, e você morre de pavor.</p>",
+      "effects": {
+        "Heart attack": {
+          "name": "Ataque cardíaco"
+        }
+      }
+    },
+    "Ornithophobia": {
+      "name": "Ornitofobia",
+      "description": "<p><strong>Descrição:</strong> Você tem visões de asas batendo - Pássaros tentando atacá-lo.</p><p><strong>Efeito:</strong> Você perde 1 de Esperança por período que passar próximo a um Pássaro e não pode comandá-lo.</p><p><strong>Tempo de Cura:</strong> D6 períodos</p>",
+      "effects": {
+        "Ornithophobia": {
+          "name": "Ornitofobia"
+        }
+      }
+    },
+    "Worrisome": {
+      "name": "Preocupado",
+      "description": "<p><strong>Efeito:</strong> Até pequenos empecilhos (à escolha do mestre) contam como situações estressantes para você, podendo causar 1 de perda de Esperança.</p>",
+      "effects": {
+        "Worrisome": {
+          "name": "Preocupado"
+        }
+      }
+    },
+    "Changed personality": {
+      "name": "Personalidade alterada",
+      "description": "<p><strong>Efeito:</strong> Escolha uma nova peculiaridade.</p>",
+      "effects": {
+        "Changed personality": {
+          "name": "Personalidade alterada"
+        }
+      }
+    },
+    "Temporal dissonance": {
+      "name": "Dissonância temporal",
+      "description": "<p><strong>Descrição:</strong> Você vivencia lapsos breves, mas desorientadores, na percepção do tempo.</p><p><strong>Efeito:</strong> Você sempre pega a carta nº 10 em combate.</p><p><strong>Tempo de Cura:</strong> D6 períodos</p>",
+      "effects": {
+        "Temporal dissonance": {
+          "name": "Dissonância temporal"
+        }
+      }
+    },
+    "Bleeding gut": {
+      "name": "Hemorragia interna",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> 1 ponto de dano ao testar AGILIDADE ou FORÇA.</p><p><strong>Tempo de Cura:</strong> D6 dias</p>",
+      "effects": {
+        "Bleeding gut": {
+          "name": "Hemorragia interna"
+        }
+      }
+    },
+    "Shattered head": {
+      "name": "Cabeça estilhaçada",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> Morte imediata.</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Shattered head": {
+          "name": "Cabeça estilhaçada"
+        }
+      }
+    },
+    "Broken teeth": {
+      "name": "Dentes quebrados",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Desanimado.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Broken teeth": {
+          "name": "Dentes quebrados"
+        }
+      }
+    },
+    "Impaled heart": {
+      "name": "Coração empalado",
+      "description": "<p><strong>Letal:</strong> Sim</p><p><strong>Efeito:</strong> Morte imediata.</p><p><strong>Tempo de Cura:</strong> -</p>",
+      "effects": {
+        "Impaled heart": {
+          "name": "Coração empalado"
+        }
+      }
+    },
+    "Blood in eyes": {
+      "name": "Sangue nos olhos",
+      "description": "<p><strong>Letal:</strong> Não</p><p><strong>Efeito:</strong> Você fica Distraído.</p><p><strong>Tempo de Cura:</strong> 1 período</p>",
+      "effects": {
+        "Blood in eyes": {
+          "name": "Sangue nos olhos"
+        }
+      }
+    }
+  }
+}
