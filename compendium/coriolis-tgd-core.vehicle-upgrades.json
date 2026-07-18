@@ -1,0 +1,481 @@
+{
+  "label": "Aprimoramentos de Veículos",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Shuttle Upgrades": "Aprimoramentos de Esquife",
+    "Rover Upgrades": "Aprimoramentos de Desbravador"
+  },
+  "entries": {
+    "Med Lab": {
+      "name": "Laboratório médico",
+      "description": "<p>+3 de bônus de equipamento para primeiros socorros e estabilização de lesões críticas</p>"
+    },
+    "Airlock": {
+      "name": "Câmara de Descompressão",
+      "description": "<p>Eclusa de ar para sair em ambientes hostis</p>"
+    },
+    "Reinforced Hull III": {
+      "name": "Reinforced Hull III",
+      "effects": {
+        "Reinforced Hull III": {
+          "name": "Reinforced Hull III",
+          "changes": {
+            "system.hull.max": 3,
+            "system.maxManeuverability": -1
+          }
+        }
+      }
+    },
+    "Laboratory": {
+      "name": "Laboratório",
+      "description": "<p>+2 de bônus de equipamento para analisar compostos químicos e artefatos</p>"
+    },
+    "Armor Plating II": {
+      "name": "Blindagem II",
+      "description": "<p>+1 de armadura por nível</p>",
+      "effects": {
+        "Armor Plating II": {
+          "name": "Blindagem II",
+          "changes": {
+            "system.armor": 2
+          }
+        }
+      }
+    },
+    "Amphibious": {
+      "name": "Anfíbio",
+      "description": "<p>Tanques de flutuação e hélices retráteis</p>"
+    },
+    "Armor Plating I": {
+      "name": "Blindagem I",
+      "description": "<p>+1 de armadura por nível</p>",
+      "effects": {
+        "Armor Plating I": {
+          "name": "Blindagem I",
+          "changes": {
+            "system.armor": 1
+          }
+        }
+      }
+    },
+    "Salvage Hook": {
+      "name": "Salvage Hook"
+    },
+    "Comfortable Bunks": {
+      "name": "Beliches Confortáveis",
+      "description": "<p>Cura uma condição extra por período ao descansar no desbravador</p>"
+    },
+    "Small Galley II": {
+      "name": "Cambusa Pequena II",
+      "description": "<p>Produz 1 ponto de suprimentos por dia por nível</p>"
+    },
+    "Field Library II": {
+      "name": "Biblioteca de Campo II",
+      "description": "<p>Bônus de equipamento +1 por nível para pesquisa</p>"
+    },
+    "Storm Bolts": {
+      "name": "Antenas de Aterramento",
+      "description": "<p>Afixa e aterra o desbravador ao solo durante tempestades</p>"
+    },
+    "Enhanced Scopes II": {
+      "name": "Sensores Ópticos Aprimorados II",
+      "description": "<p>Sensores com +1 de bônus de equipamento por nível e visão noturna</p>"
+    },
+    "Library II": {
+      "name": "Library II"
+    },
+    "Workshop": {
+      "name": "Oficina",
+      "description": "<p>+3 de bônus de equipamento para consertar equipamento e o esquife</p>"
+    },
+    "Hull Art": {
+      "name": "Hull Art"
+    },
+    "Gun Turret": {
+      "name": "Gun Turret",
+      "effects": {
+        "Gun Turret": {
+          "name": "Gun Turret",
+          "changes": {
+            "system.atHandMaxBonus": 1
+          }
+        }
+      }
+    },
+    "Small Galley III": {
+      "name": "Cambusa Pequena III",
+      "description": "<p>Produz 1 ponto de suprimentos por dia por nível</p>"
+    },
+    "Armor Plating III": {
+      "name": "Blindagem III",
+      "description": "<p>+1 de armadura por nível</p>",
+      "effects": {
+        "Armor Plating III": {
+          "name": "Blindagem III",
+          "changes": {
+            "system.armor": 3
+          }
+        }
+      }
+    },
+    "Enhanced Scopes I": {
+      "name": "Sensores Ópticos Aprimorados I",
+      "description": "<p>Sensores com +1 de bônus de equipamento por nível e visão noturna</p>"
+    },
+    "Field Library I": {
+      "name": "Biblioteca de Campo I",
+      "description": "<p>Bônus de equipamento +1 por nível para pesquisa</p>"
+    },
+    "Galley I": {
+      "name": "Galley I"
+    },
+    "Garden Wall": {
+      "name": "Garden Wall"
+    },
+    "Med Station": {
+      "name": "Estação Médica",
+      "description": "<p>+2 de bônus de equipamento para primeiros socorros e estabilização de lesões críticas</p>"
+    },
+    "Hydroponic Garden Cube": {
+      "name": "Cubo de Jardim Hidropônico",
+      "description": "<p>Produz 1 ponto de suprimentos por dia</p>"
+    },
+    "Enhanced Avionics III": {
+      "name": "Enhanced Avionics III",
+      "effects": {
+        "Enhanced Avionics III": {
+          "name": "Enhanced Avionics III",
+          "changes": {
+            "system.maxManeuverability": 3
+          }
+        }
+      }
+    },
+    "Excavator Arm": {
+      "name": "Braço Escavador",
+      "description": "<p>Usado para escavar o solo e erguer cargas pesadas</p>"
+    },
+    "Infirmary": {
+      "name": "Infirmary"
+    },
+    "Comfortable Bunk Beds": {
+      "name": "Beliches Confortáveis",
+      "description": "<p>Cura uma condição extra por período ao descansar no desbravador</p>"
+    },
+    "External Cargo Racks": {
+      "name": "External Cargo Racks",
+      "effects": {
+        "External Cargo Racks": {
+          "name": "External Cargo Racks",
+          "changes": {
+            "system.cargo": 2,
+            "system.maxManeuverability": -2
+          }
+        }
+      }
+    },
+    "Hazard Protection I": {
+      "name": "Proteção contra Perigos I",
+      "description": "<p>+1 de Proteção contra Mácula por nível</p>",
+      "effects": {
+        "Hazard Protection I": {
+          "name": "Proteção contra Perigos I",
+          "changes": {
+            "system.blightProtection": 1
+          }
+        }
+      }
+    },
+    "Turret": {
+      "name": "Torreta de Arma",
+      "description": "<p>Capaz de montar uma arma para o desbravador (adquirida separadamente)</p>",
+      "effects": {
+        "Turret": {
+          "name": "Torreta de Arma",
+          "changes": {
+            "system.atHandMaxBonus": 1
+          }
+        }
+      }
+    },
+    "Improved Suspension I": {
+      "name": "Suspensão Aprimorada I",
+      "description": "<p>+1 de Manobrabilidade por nível</p>",
+      "effects": {
+        "Improved Suspension I": {
+          "name": "Suspensão Aprimorada I",
+          "changes": {
+            "system.maxManeuverability": 1
+          }
+        }
+      }
+    },
+    "Improved Suspension II": {
+      "name": "Suspensão Aprimorada II",
+      "description": "<p>+1 de Manobrabilidade por nível</p>",
+      "effects": {
+        "Improved Suspension II": {
+          "name": "Suspensão Aprimorada II",
+          "changes": {
+            "system.maxManeuverability": 2
+          }
+        }
+      }
+    },
+    "Galley III": {
+      "name": "Galley III"
+    },
+    "Tow Line": {
+      "name": "Cabo de Reboque",
+      "description": "<p>Para rebocar e puxar veículos presos ou detritos que estejam bloqueando o caminho</p>"
+    },
+    "Orbital Distress Beacon": {
+      "name": "Radiobaliza de Emergência Orbital",
+      "description": "<p>Envia um sinal de socorro para naves que estiverem em órbita</p>"
+    },
+    "Storm Lanterns": {
+      "name": "Lanternas de Tempestade",
+      "description": "<p>Holofotes para iluminar a área até alcance Médio</p>"
+    },
+    "Enhanced Sensors III": {
+      "name": "Enhanced Sensors III"
+    },
+    "Composite Plating I": {
+      "name": "Composite Plating I",
+      "effects": {
+        "Composite Plating I": {
+          "name": "Composite Plating I",
+          "changes": {
+            "system.armor": 1
+          }
+        }
+      }
+    },
+    "Library I": {
+      "name": "Library I"
+    },
+    "Jump Jets": {
+      "name": "Jatos de Propulsão",
+      "description": "<p>Propulsores que conferem capacidade de salto ao desbravador, podendo transpor obstáculos de até 2 metros de altura com um teste de <strong>AGILIDADE</strong>. Disponível apenas para desbravadores do tipo flutuantes.</p>"
+    },
+    "Enhanced Sensors II": {
+      "name": "Enhanced Sensors II"
+    },
+    "Hazard Protection II": {
+      "name": "Proteção contra Perigos II",
+      "description": "<p>+1 de Proteção contra Mácula por nível</p>",
+      "effects": {
+        "Hazard Protection II": {
+          "name": "Proteção contra Perigos II",
+          "changes": {
+            "system.blightProtection": 2
+          }
+        }
+      }
+    },
+    "Small Galley I": {
+      "name": "Cambusa Pequena I",
+      "description": "<p>Produz 1 ponto de suprimentos por dia por nível</p>"
+    },
+    "Robust Hull II": {
+      "name": "Casco Robusto II",
+      "description": "<p>+1 de Casco por nível, -1 de Manobrabilidade no nível 3</p>",
+      "effects": {
+        "Robust Hull II": {
+          "name": "Casco Robusto II",
+          "changes": {
+            "system.hull.max": 2
+          }
+        }
+      }
+    },
+    "Shrine": {
+      "name": "Shrine"
+    },
+    "Remote Control System": {
+      "name": "Sistema de Controle Remoto",
+      "description": "<p>Permite que um Explorador controle o veículo remotamente como uma pipa gigante, até alcance Extremo</p>"
+    },
+    "Library III": {
+      "name": "Library III"
+    },
+    "Optimized Projector": {
+      "name": "Optimized Projector",
+      "effects": {
+        "Optimized Projector": {
+          "name": "Optimized Projector",
+          "changes": {
+            "system.combatSpeed": 1
+          }
+        }
+      }
+    },
+    "Hazard Protection III": {
+      "name": "Proteção contra Perigos III",
+      "description": "<p>+1 de Proteção contra Mácula por nível</p>",
+      "effects": {
+        "Hazard Protection III": {
+          "name": "Proteção contra Perigos III",
+          "changes": {
+            "system.blightProtection": 3
+          }
+        }
+      }
+    },
+    "Enhanced Sensors I": {
+      "name": "Enhanced Sensors I"
+    },
+    "Improved Suspension III": {
+      "name": "Suspensão Aprimorada III",
+      "description": "<p>+1 de Manobrabilidade por nível</p>",
+      "effects": {
+        "Improved Suspension III": {
+          "name": "Suspensão Aprimorada III",
+          "changes": {
+            "system.maxManeuverability": 3
+          }
+        }
+      }
+    },
+    "Reinforced Hull I": {
+      "name": "Reinforced Hull I",
+      "effects": {
+        "Reinforced Hull I": {
+          "name": "Reinforced Hull I",
+          "changes": {
+            "system.hull.max": 1
+          }
+        }
+      }
+    },
+    "Turbo Charger": {
+      "name": "Sobrealimentador",
+      "description": "<p>+1 de Velocidade</p>",
+      "effects": {
+        "Turbo Charger": {
+          "name": "Sobrealimentador",
+          "changes": {
+            "system.speed": 1
+          }
+        }
+      }
+    },
+    "Galley II": {
+      "name": "Galley II"
+    },
+    "Enhanced Avionics I": {
+      "name": "Enhanced Avionics I",
+      "effects": {
+        "Enhanced Avionics I": {
+          "name": "Enhanced Avionics I",
+          "changes": {
+            "system.maxManeuverability": 1
+          }
+        }
+      }
+    },
+    "Salvage Crane": {
+      "name": "Guincho de Coleta",
+      "description": "<p>Pode realizar salvamento de destroços e levantar detritos que estejam bloqueando o caminho</p>"
+    },
+    "Robust Hull III": {
+      "name": "Casco Robusto III",
+      "description": "<p>+1 de Casco por nível, -1 de Manobrabilidade no nível 3</p>",
+      "effects": {
+        "Robust Hull III": {
+          "name": "Casco Robusto III",
+          "changes": {
+            "system.hull.max": 3,
+            "system.maxManeuverability": -1,
+            "system.maneuverability": -1
+          }
+        }
+      }
+    },
+    "Enhanced Scopes III": {
+      "name": "Sensores Ópticos Aprimorados III",
+      "description": "<p>Sensores com +1 de bônus de equipamento por nível e visão noturna</p>"
+    },
+    "Robust Hull I": {
+      "name": "Casco Robusto I",
+      "description": "<p>+1 de Casco por nível, -1 de Manobrabilidade no nível 3</p>",
+      "effects": {
+        "Robust Hull I": {
+          "name": "Casco Robusto I",
+          "changes": {
+            "system.hull.max": 1
+          }
+        }
+      }
+    },
+    "Entertainment Module": {
+      "name": "Módulo de Entretenimento",
+      "description": "<p>Permite recuperar 1 de Esperança adicional ao passar um período no desbravador</p>"
+    },
+    "Enhanced Avionics II": {
+      "name": "Enhanced Avionics II",
+      "effects": {
+        "Enhanced Avionics II": {
+          "name": "Enhanced Avionics II",
+          "changes": {
+            "system.maxManeuverability": 2
+          }
+        }
+      }
+    },
+    "Escape Pod": {
+      "name": "Escape Pod"
+    },
+    "Composite Plating II": {
+      "name": "Composite Plating II",
+      "effects": {
+        "Composite Plating II": {
+          "name": "Composite Plating II",
+          "changes": {
+            "system.armor": 2
+          }
+        }
+      }
+    },
+    "Composite Plating III": {
+      "name": "Composite Plating III",
+      "effects": {
+        "Composite Plating III": {
+          "name": "Composite Plating III",
+          "changes": {
+            "system.armor": 3
+          }
+        }
+      }
+    },
+    "Reinforced Hull II": {
+      "name": "Reinforced Hull II",
+      "effects": {
+        "Reinforced Hull II": {
+          "name": "Reinforced Hull II",
+          "changes": {
+            "system.hull.max": 2
+          }
+        }
+      }
+    },
+    "Hab Module": {
+      "name": "Módulo Habitacional",
+      "description": "<p>Módulo de habitação que pode acomodar 2 espaços de melhorias, normalmente cabines, laboratório e/ou enfermaria</p>",
+      "effects": {
+        "Hab Module": {
+          "name": "Módulo Habitacional",
+          "changes": {
+            "system.slots": 2
+          }
+        }
+      }
+    },
+    "New Coat of Paint": {
+      "name": "Nova Camada de Pintura",
+      "description": "<p>+1 de bônus de equipamento em testes de <strong>EMPATIA</strong> ao tentar impressionar alguém</p>"
+    }
+  }
+}

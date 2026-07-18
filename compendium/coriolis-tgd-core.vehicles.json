@@ -1,0 +1,89 @@
+{
+  "label": "Veículos",
+  "folders": {
+    "Rover": "Desbravador",
+    "Shuttle": "Esquife"
+  },
+  "entries": {
+    "Manta": {
+      "name": "Manta",
+      "items": {
+        "Supply": {
+          "name": "Suprimento"
+        },
+        "Enhanced Avionics I": {
+          "name": "Enhanced Avionics I",
+          "effects": {
+            "Enhanced Avionics I": {
+              "name": "Enhanced Avionics I",
+              "changes": {
+                "system.maxManeuverability": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "Rhino All-Terrain Rover": {
+      "name": "Desbravador Para Todo-Terreno Rino",
+      "items": {
+        "Supply": {
+          "name": "Suprimento"
+        },
+        "Comfortable Bunk Beds": {
+          "name": "Beliches Confortáveis"
+        },
+        "Airlock": {
+          "name": "Câmara de Descompressão"
+        },
+        "Tow Line": {
+          "name": "Cabo de Reboque"
+        }
+      }
+    },
+    "Sphinx Gravity-Projection": {
+      "name": "Desbravador de Projeção Gravitacional Esfinge",
+      "items": {
+        "Supply": {
+          "name": "Suprimento"
+        }
+      }
+    },
+    "Crocodile Tracker Rover": {
+      "name": "Desbravador de Lagarta Crocodilo",
+      "items": {
+        "Supply": {
+          "name": "Suprimento"
+        },
+        "Airlock": {
+          "name": "Câmara de Descompressão"
+        }
+      }
+    },
+    "Owl": {
+      "name": "Owl",
+      "items": {
+        "Supply": {
+          "name": "Suprimento"
+        },
+        "Enhanced Sensors I": {
+          "name": "Enhanced Sensors I"
+        }
+      }
+    },
+    "Grasshopper": {
+      "name": "Grasshopper",
+      "items": {
+        "Supply": {
+          "name": "Suprimento"
+        },
+        "Galley I": {
+          "name": "Cambusa Pequena I"
+        },
+        "Comfortable Bunks": {
+          "name": "Beliches Confortáveis"
+        }
+      }
+    }
+  }
+}
