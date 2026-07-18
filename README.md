@@ -52,6 +52,6 @@ Me envie uma mensagem no Discord: **symboli_teio**
 
 Este é um projeto não oficial, feito de fã para fãs, sem fins lucrativos e não possui nenhuma afiliação ou endosso da **Free League Publishing (Fria Ligan)**. Para sua utilização é necessário possuir o sistema oficial previamente comprado através de fontes **OFICIAIS**, nenhum livro, manual ou sistema será distribuído gratuitamente nesse módulo.
 
-Todos os direitos de *Coriolis: The Third Horizon*, incluindo universo, cenários, mecânicas, nomes e termos, são de propriedade exclusiva da Free League Publishing. A tradução contida neste módulo tem como único objetivo facilitar o acesso e o uso do sistema por jogadores brasileiros no Foundry VTT.
+Todos os direitos de *Coriolis: The Great Darkness*, incluindo universo, cenários, mecânicas, nomes e termos, são de propriedade exclusiva da Free League Publishing. A tradução contida neste módulo tem como único objetivo facilitar o acesso e o uso do sistema por jogadores brasileiros no Foundry VTT.
 
 Se você utiliza este módulo e gosta do universo do Terceiro Horizonte, **apoie os criadores oficiais!** Adquira os livros e suplementos originais através do site oficial da [Free League Publishing](https://freeleaguepublishing.com/).
